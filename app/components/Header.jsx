@@ -9,7 +9,7 @@ import {
 import Image from "next/image";
 import * as Scroll from "react-scroll";
 import { Link } from "react-scroll";
-import logo from "../img/Logo.svg";
+import logo from "../img/logo.png";
 import { BsTwitter, BsDiscord } from "react-icons/bs";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 

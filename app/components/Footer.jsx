@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../img/Logo.svg";
+import logo from "../img/logo.png";
 import { IoMdMail } from "react-icons/io";
 import {
   FaWhatsapp,
