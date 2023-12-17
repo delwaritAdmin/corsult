@@ -96,7 +96,7 @@ function Services() {
             </marquee>
           </div>
           <div className="grid grid-cols-1 gap-16 lg:grid-cols-2">
-            <div className="space-y-3 text-center lg:text-start">
+            <div className="space-y-3 text-center lg:text-start lg:sticky lg:top-28 lg:h-screen">
               <p className=" font-semibold text-[#FFE600]">Our Services</p>
               <h2 className=" text-5xl text-white font-bold lg:text-6xl">
                 We help your business grow
