@@ -121,8 +121,8 @@ function Services() {
                     </h2>
                     <p className="text-[#918E93]">
                       We take care of every design detail, so you can nurture
-                      your business. Share your vision, and we'll craft a
-                      seamless global user experience. Let's create magic
+                      your business. Share your vision, and we&rsquo;ll craft a
+                      seamless global user experience. Let&rsquo;s create magic
                       together!
                     </p>
                   </div>
@@ -141,8 +141,8 @@ function Services() {
                     </h2>
                     <p className="text-[#918E93]">
                       Elevate your online presence with our expert web design
-                      solutions. Share your dream, and we'll transform it into a
-                      responsive, SEO-optimized website. Let's turn clicks into
+                      solutions. Share your dream, and we&rsquo;ll transform it into a
+                      responsive, SEO-optimized website. Let&rsquo;s turn clicks into
                       loyal customers!
                     </p>
                   </div>
@@ -162,7 +162,7 @@ function Services() {
                     <p className="text-[#918E93]">
                       Crafting logos, building brands. Elevate your identity
                       with our specialized logo and brand design services. Share
-                      your vision, and we'll bring it to life, ensuring
+                      your vision, and we&rsquo;ll bring it to life, ensuring
                       memorable impressions.
                     </p>
                   </div>
@@ -182,7 +182,7 @@ function Services() {
                     <p className="text-[#918E93]">
                       Optimize with insights. Elevate user engagement with our
                       comprehensive UX Audit services. Share your digital
-                      challenges, and we'll pinpoint improvements for an
+                      challenges, and we&rsquo;ll pinpoint improvements for an
                       intuitive journey.
                     </p>
                   </div>
@@ -202,8 +202,8 @@ function Services() {
                     <p className="text-[#918E93]">
                       WordPress wonders await. Streamline your digital journey
                       with our expert WordPress services. Share your concept,
-                      and we'll shape it into a user-friendly, SEO-optimized
-                      masterpiece. Let's collaborate and craft excellence!
+                      and we&rsquo;ll shape it into a user-friendly, SEO-optimized
+                      masterpiece. Let&rsquo;s collaborate and craft excellence!
                     </p>
                   </div>
                 </div>
@@ -222,7 +222,7 @@ function Services() {
                     <p className="text-[#918E93]">
                       Global UX in SaaS is crucial for user satisfaction and
                       retention. At Design Monks, our international expertise
-                      elevates your product's design. Trust our dedicated SaaS
+                      elevates your product&rsquo;s design. Trust our dedicated SaaS
                       professionals for a globally resonant experience
                     </p>
                   </div>
