@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.bg-gradient {
+  background-color: transparent;
+  background-image: linear-gradient(50deg, #00D4FB 1%, #2736F7 100%);
+}
+
+.text-gradient {
+  background-color: transparent;
+  background-image: linear-gradient(143deg, #00D4FB 0%, #2736F7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.bg1{
+  background-image:linear-gradient(to bottom, rgba(22, 22, 22, 0.52), rgba(22, 22, 22, 0.52)),;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg1{
+  background-image: url(./img/bg.svg);
+  background-position: end;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.moving-container {
+  overflow: hidden;
+}
+
+.moving-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: move 10s linear infinite;
+}
