@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../img/logo_corsult.png";
 import { IoMdMail } from "react-icons/io";
+import { Typography } from "@material-tailwind/react";
 import {
   FaWhatsapp,
   FaDribbble,
@@ -16,11 +17,17 @@ import {
 function Footer() {
   return (
     <section>
-      <div className="bg-[#030307] w-full py-10">
+      <div className="bg-[#030307] w-full pt-10">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-x-10 md:pb-6 lg:grid-cols-5">
             <div className="space-y-4 lg:col-span-2">
-              <Image src={logo} alt="logo" height={120} width={170} />
+              <Typography
+                as="a"
+                href="/"
+                className=" cursor-pointer py-2 font-medium transition-all duration-200 "
+              >
+                <Image src={logo} alt="logo" height={120} width={170} />
+              </Typography>
               <p className="text-[#9A9A9C] text-[1.2rem]">
                 Beyond being a top UI UX design hub, we’re your one-stop for
                 research, wireframing, design, and development!
@@ -117,14 +124,14 @@ function Footer() {
                     className="hover:text-[#75f] transition-all duration-300 flex gap-2 items-center"
                   >
                     <IoMdMail />
-                    <p>hello@designmonks.co</p>
+                    <p>syed@corsult.com</p>
                   </Link>
                   <Link
                     href={"#"}
                     className="hover:text-[#75f] transition-all duration-300 flex gap-2 items-center"
                   >
                     <FaWhatsapp />
-                    <p>+880 1783-805534</p>
+                    <p>+1 888-626-6062</p>
                   </Link>
                 </div>
               </div>
@@ -141,8 +148,8 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="pt-1 flex flex-col gap-2 md:flex-row-reverse md:items-center md:justify-between md:border-t-[1px] border-[#353539] lg:pt-5">
-            <div className="flex items-center gap-2 border-b-[1px] border-[#353539] pb-3 md:border-b-0  md:pt-4">
+          <div className="py-8 flex flex-col gap-4 md:flex-row-reverse md:items-center md:justify-between md:pt-1 md:border-t-[1px] border-[#353539] lg:pt-5">
+            <div className="flex items-center gap-2 pb-5 border-b-[1px] border-[#353539] md:pb-3 md:border-b-0  md:pt-4">
               <div className="">
                 <Link
                   href={"#"}
@@ -193,7 +200,7 @@ function Footer() {
               </div>
             </div>
             <p className="text-[#9A9A9C] text-lg">
-              ©2023 Design Monks All Rights Reserved
+              ©2023 Design All Rights Reserved
             </p>
           </div>
         </div>

@@ -12,6 +12,8 @@ import { Link } from "react-scroll";
 import logo from "../img/logo_corsult.png";
 import { BsTwitter, BsDiscord } from "react-icons/bs";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoMdClose } from "react-icons/io";
 
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -88,28 +90,34 @@ export default function Header() {
           href="/"
           className=" cursor-pointer py-2 font-medium transition-all duration-200 "
         >
-          <Image src={logo} height={120} width={170} alt="logo" />
+          <Image
+            src={logo}
+            height={120}
+            width={175}
+            alt="logo"
+            className="w-32 md:w-[80%] lg:w-[70%]"
+          />
         </Typography>
         <div className="block lg:hidden">
           <div className="flex items-center gap-2 order-2 ">
             <Link href="#">
-              <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
-                <BsTwitter className="text-[#B9B8C1] text-[1.4rem]" />
+              <div className="flex items-center justify-center p-1 md:p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
+                <BsTwitter className="text-[#B9B8C1] md:text-[1.5rem]" />
               </div>
             </Link>
             <Link href="#">
-              <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
-                <BsDiscord className="text-[#B9B8C1] text-[1.4rem]" />
+              <div className="flex items-center justify-center p-1 md:p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
+                <BsDiscord className="text-[#B9B8C1] md:text-[1.5rem]" />
               </div>
             </Link>
             <Link href="#">
-              <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
-                <FaFacebookF className="text-[#B9B8C1] text-[1.4rem]" />
+              <div className="flex items-center justify-center p-1 md:p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
+                <FaFacebookF className="text-[#B9B8C1] md:text-[1.5rem]" />
               </div>
             </Link>
             <Link href="#">
-              <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
-                <FaInstagram className="text-[#B9B8C1] text-[1.4rem] " />
+              <div className="flex items-center justify-center p-1 md:p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
+                <FaInstagram className="text-[#B9B8C1] md:text-[1.5rem] " />
               </div>
             </Link>
           </div>
@@ -124,34 +132,9 @@ export default function Header() {
             onClick={() => setOpenNav(!openNav)}
           >
             {openNav ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                className="h-6 w-6"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <IoMdClose className="text-2xl text-[#027EEC]" />
             ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+              <GiHamburgerMenu className="text-2xl text-[#027EEC]" />
             )}
           </IconButton>
         </div>
@@ -180,7 +163,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <MobileNav open={openNav} className="">
+      <MobileNav open={openNav} className="px-4">
         {navList}
       </MobileNav>
     </Navbar>
