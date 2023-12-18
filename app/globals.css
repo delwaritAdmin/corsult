@@ -53,21 +53,14 @@ body {
   background-repeat: no-repeat;
 }
 
-@keyframes move {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.work_bg {
+  position: relative;
+  background: linear-gradient(270deg, #1d237a, #000046, #134a7f, #1d237a);
+  background-size: 1000% 1000%;
 }
-
-.moving-container {
-  overflow: hidden;
-}
-
-.moving-text {
-  display: inline-block;
-  white-space: nowrap;
-  animation: move 10s linear infinite;
+.work_bg_img{
+  background-image:linear-gradient(to bottom, #1d237adc, #134b7fea) ,url(./img/work_bg_img.svg);
+  background-position: end;
+  background-size: cover;
+  background-repeat: repeat-x;
 }

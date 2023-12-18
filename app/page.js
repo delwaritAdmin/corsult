@@ -5,6 +5,8 @@ import Hero from "./components/Hero"
 import Services from "./components/Services"
 import Footer from "./components/Footer"
 import Learn from "./components/Learn"
+import Work from "./components/Work"
+import Research from "./components/Research"
 
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
        <Header/>
        <Hero/>
        <Services/>
+       <Work/>
+       <Research/>
        <Learn/>
        <Footer/>
     </>
