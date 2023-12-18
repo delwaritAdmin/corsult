@@ -28,11 +28,7 @@ function Hero() {
             <Image src={smlogo2} alt="logo" className="" />
           </div>
           <p className="text-[#6A687B] font-semibold text-center py-2 lg:px-48">
-            Our suite of solutions is designed to streamline operations and
-            enhance productivity for startups, developers, and businesses. Our
-            mission is to simplify the complexities of modern business and tech
-            startups, enabling our customers to focus on what truly matters -
-            their growth and success.
+          Our comprehensive array of solutions is meticulously crafted to optimize operational efficiency and elevate productivity across diverse domains, catering to the distinctive needs of startups, developers, and businesses. Our overarching mission is to demystify the intricacies inherent in contemporary business and technological startups, empowering our clientele to concentrate on the quintessence of their journey – unabated growth and resounding success.
           </p>
           <div className="py-8 flex justify-center">
             <Link

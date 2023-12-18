@@ -53,7 +53,7 @@ function Services() {
               </div>
             </marquee>
             <marquee direction="">
-            <div className="text-[#353539] flex gap-3">
+              <div className="text-[#353539] flex gap-3">
                 <p className="text-5xl font-bold lg:text-7xl">BRANDING</p>
                 <div className="mt-5 lg:mt-10">
                   <GoNorthStar className="text-[#7654FD] text-2xl" />
@@ -102,9 +102,7 @@ function Services() {
                 We help your business grow
               </h2>
               <p className="text-[#918E93]  text-lg pt-5">
-                As a distinguished UI/UX design firm, we offer comprehensive
-                solutions encompassing research, wireframing, UI design, and
-                development. Here are our specialized services:
+              Fueling Business Growth Through Digital Excellence. Our digital agency specializes in Web Design, Development, UI/UX Design, Logo & Brand Design, UX Audit, WordPress, SaaS Design, and more. Elevate your online presence and drive success with our tailored solutions. Let&rsquo;s transform your vision into thriving reality.
               </p>
             </div>
             <div className=" grid grid-cols-1 gap-10">
@@ -120,10 +118,7 @@ function Services() {
                       UI UX Design
                     </h2>
                     <p className="text-[#918E93]">
-                      We take care of every design detail, so you can nurture
-                      your business. Share your vision, and we&rsquo;ll craft a
-                      seamless global user experience. Let&rsquo;s create magic
-                      together!
+                    In the realm of our agency, we weave dreams into pixels, infusing every UI/UX design with passion. Embracing the bittersweet dance of aesthetics and functionality, our creations transcend screens, evoking emotions that linger. Elevate your digital narrative with designs that not only captivate but resonate profoundly
                     </p>
                   </div>
                 </div>
@@ -140,10 +135,7 @@ function Services() {
                       Web Design
                     </h2>
                     <p className="text-[#918E93]">
-                      Elevate your online presence with our expert web design
-                      solutions. Share your dream, and we&rsquo;ll transform it into a
-                      responsive, SEO-optimized website. Let&rsquo;s turn clicks into
-                      loyal customers!
+                    We&rsquo;re architects of emotion in pixels. With every web design, we blend passion and functionality, creating an immersive online symphony. Let your digital presence be a resonating tale, where aesthetics meet seamless functionality, weaving a narrative that lingers and captivates.
                     </p>
                   </div>
                 </div>
@@ -160,10 +152,7 @@ function Services() {
                       Logo & Brand Design
                     </h2>
                     <p className="text-[#918E93]">
-                      Crafting logos, building brands. Elevate your identity
-                      with our specialized logo and brand design services. Share
-                      your vision, and we&rsquo;ll bring it to life, ensuring
-                      memorable impressions.
+                    Sculpting logos, shaping brands. Uplift your essence through our expert logo and brand design services. Convey your vision, and we&rsquo;ll breathe life into it, guaranteeing indelible impressions that resonate. Your identity, meticulously crafted for lasting distinction.
                     </p>
                   </div>
                 </div>
@@ -180,10 +169,7 @@ function Services() {
                       UX Audit
                     </h2>
                     <p className="text-[#918E93]">
-                      Optimize with insights. Elevate user engagement with our
-                      comprehensive UX Audit services. Share your digital
-                      challenges, and we&rsquo;ll pinpoint improvements for an
-                      intuitive journey.
+                    Enhance performance with profound insights. Heighten user engagement through our thorough UX Audit services. Unveil your digital hurdles, and we&rsquo;ll pinpoint enhancements for a seamless and intuitive journey. Let data illuminate the path to an elevated user experience.
                     </p>
                   </div>
                 </div>
@@ -200,10 +186,7 @@ function Services() {
                       WordPress
                     </h2>
                     <p className="text-[#918E93]">
-                      WordPress wonders await. Streamline your digital journey
-                      with our expert WordPress services. Share your concept,
-                      and we&rsquo;ll shape it into a user-friendly, SEO-optimized
-                      masterpiece. Let&rsquo;s collaborate and craft excellence!
+                    Embark on WordPress wonders. Simplify your digital voyage with our proficient WordPress services. Convey your vision, and we&rsquo;ll mold it into a user-friendly, SEO-optimized masterpiece. Let&rsquo;s collaborate to craft digital excellence that resonates with your audience.
                     </p>
                   </div>
                 </div>
@@ -220,10 +203,7 @@ function Services() {
                       SaaS Design
                     </h2>
                     <p className="text-[#918E93]">
-                      Global UX in SaaS is crucial for user satisfaction and
-                      retention. At Design Monks, our international expertise
-                      elevates your product&rsquo;s design. Trust our dedicated SaaS
-                      professionals for a globally resonant experience
+                    In the realm of SaaS, global UX is paramount for user satisfaction and retention. Design Monks, with international expertise, elevates your product&rsquo;s design. Trust our dedicated SaaS professionals for a resonant global experience that ensures user engagement and loyalty.
                     </p>
                   </div>
                 </div>

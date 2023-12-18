@@ -20,7 +20,7 @@ function Footer() {
       <div className="bg-[#030307] w-full pt-10">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-x-10 md:pb-6 lg:grid-cols-5">
-            <div className="space-y-4 lg:col-span-2">
+            <div className="lg:col-span-2 lg:-mt-4">
               <Typography
                 as="a"
                 href="/"
@@ -28,9 +28,8 @@ function Footer() {
               >
                 <Image src={logo} alt="logo" height={120} width={170} />
               </Typography>
-              <p className="text-[#9A9A9C] text-[1.2rem]">
-                Beyond being a top UI UX design hub, we’re your one-stop for
-                research, wireframing, design, and development!
+              <p className="text-[#9A9A9C] text-[1rem]">
+              Empowering Digital Excellence. We are your one-stop digital agency, offering services ranging from Web Design and Development to UI/UX Design, Logo & Brand Design, UX Audit, WordPress, and SaaS Design. Elevate your online presence with our tailored solutions. Let&rsquo;s redefine your digital journey together.
               </p>
             </div>
             <div className="md:pl-20 lg:pl-0">
