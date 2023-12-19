@@ -18,18 +18,19 @@ function Hero() {
           </div>
           <div className=" flex flex-col items-center gap-1">
             <h3 className="text-white font-semibold text-center text-4xl lg:text-6xl">
-              Creating Impactful Digital
+            Using the latest innovations in AI 
+
             </h3>
             <h3 className="text-white font-semibold text-center text-4xl lg:text-6xl px-38">
-              Products for <span className="text-gradient">Developers</span>
+            To Super charge <span className="text-gradient"> your services </span>
             </h3>
           </div>
           <div className="flex justify-end -mt-8 lg:mr-10">
             <Image src={smlogo2} alt="logo" className="" />
           </div>
-          <p className="text-[#6A687B] font-semibold text-center py-2 lg:px-48">
+          {/* <p className="text-[#6A687B] font-semibold text-center py-2 lg:px-48">
           Our comprehensive array of solutions is meticulously crafted to optimize operational efficiency and elevate productivity across diverse domains, catering to the distinctive needs of startups, developers, and businesses. Our overarching mission is to demystify the intricacies inherent in contemporary business and technological startups, empowering our clientele to concentrate on the quintessence of their journey – unabated growth and resounding success.
-          </p>
+          </p> */}
           <div className="py-8 flex justify-center">
             <Link
               href={"#"}
