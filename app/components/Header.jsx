@@ -26,13 +26,13 @@ export default function Header() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-3 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-4">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-4">
       <Typography
         as="li"
         variant="small"
-        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300   "
+        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300   "
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-sm">
           Home
         </a>
       </Typography>
@@ -41,9 +41,9 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-2 px-5 font-medium hover:bg-[#2D2945] rounded-full transition-all duration-300 "
+        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-sm">
         Services
         </a>
       </Typography>
@@ -52,9 +52,9 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
+        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-sm">
           Product
         </a>
       </Typography>
@@ -64,9 +64,9 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
+        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-sm">
           About
         </a>
       </Typography>
@@ -74,9 +74,9 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
+        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-sm">
         Our Clients  
         </a>
       </Typography>
@@ -84,9 +84,9 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-2 px-5 font-medium hover:bg-[#2D2945] rounded-full transition-all duration-300 "
+        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-sm">
         Careers 
         </a>
       </Typography>
@@ -94,9 +94,9 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
+        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
-        <a href="#" className="flex items-center text-lg">
+        <a href="#" className="flex items-center text-sm">
           Contact
         </a>
       </Typography>
