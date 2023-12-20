@@ -26,11 +26,11 @@ export default function Header() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-4">
+    <ul className="mb-4 mt-2 flex flex-col gap-3 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-4">
       <Typography
         as="li"
         variant="small"
-        className="py-2 px-5 font-medium hover:bg-[#2D2945] rounded-full transition-all duration-300   "
+        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300   "
       >
         <a href="#" className="flex items-center text-lg">
           Home
@@ -40,7 +40,7 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-2 px-5 font-medium hover:bg-[#2D2945] rounded-full transition-all duration-300 "
+        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
         <a href="#" className="flex items-center text-lg">
           Product
@@ -50,7 +50,7 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-2 px-5 font-medium hover:bg-[#2D2945] rounded-full transition-all duration-300 "
+        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
         <a href="#" className="flex items-center text-lg">
           About
@@ -60,7 +60,7 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-2 px-5 font-medium hover:bg-[#2D2945] rounded-full transition-all duration-300 "
+        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
         <a href="#" className="flex items-center text-lg">
           Blog
@@ -70,7 +70,7 @@ export default function Header() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="py-2 px-5 font-medium hover:bg-[#2D2945] rounded-full transition-all duration-300 "
+        className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
         <a href="#" className="flex items-center text-lg">
           Contact
@@ -139,7 +139,7 @@ export default function Header() {
           </IconButton>
         </div>
         <div className="hidden lg:block">
-          <div className="flex items-center gap-2 order-2 ">
+          {/* <div className="flex items-center gap-2 order-2 ">
             <Link href="#">
               <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
                 <BsTwitter className="text-[#B9B8C1] text-xl" />
@@ -159,6 +159,14 @@ export default function Header() {
               <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
                 <FaInstagram className="text-[#B9B8C1] text-xl " />
               </div>
+            </Link>
+          </div> */}
+          <div>
+            <Link
+              href="#"
+              className="hvr-bounce-to-left overflow-hidden flex items-center gap-2 font-semibold hover:text-white border-[#32C5FA] border-2  rounded-full py-3 px-9 text-sm "
+            >
+              Start for free
             </Link>
           </div>
         </div>

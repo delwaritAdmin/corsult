@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../img/logo_corsult.png";
-import { IoMdMail } from "react-icons/io";
 import { Typography } from "@material-tailwind/react";
+import { IoMdMail } from "react-icons/io";
 import {
   FaWhatsapp,
   FaDribbble,
@@ -147,12 +147,15 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="py-8 flex flex-col gap-4 md:flex-row-reverse md:items-center md:justify-between md:pt-1 md:border-t-[1px] border-[#353539] lg:pt-5">
-            <div className="flex items-center gap-2 pb-5 border-b-[1px] border-[#353539] md:pb-3 md:border-b-0  md:pt-4">
+          <div className="py-8 flex flex-col gap-4 md:flex-row-reverse md:items-center 
+          md:justify-between md:pt-1 md:border-t-[1px] border-[#353539] lg:pt-5">
+            <div className="flex items-center gap-2 pb-5 border-b-[1px]
+             border-[#353539] md:pb-3 md:border-b-0  md:pt-4">
               <div className="">
                 <Link
                   href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539] rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
+                  className="flex items-center justify-center border-[1px] border-[#353539]
+                   rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
                 >
                   <FaDribbble className="text-white text-[1.2rem]" />
                 </Link>
@@ -160,7 +163,8 @@ function Footer() {
               <div className="">
                 <Link
                   href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539] rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
+                  className="flex items-center justify-center border-[1px] border-[#353539]
+                   rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
                 >
                   <FaBehance className="text-white text-[1.2rem]" />
                 </Link>
@@ -168,7 +172,8 @@ function Footer() {
               <div className="">
                 <Link
                   href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539] rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
+                  className="flex items-center justify-center border-[1px] border-[#353539]
+                   rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
                 >
                   <FaFacebookF className="text-white text-[1.2rem]" />
                 </Link>
@@ -176,7 +181,8 @@ function Footer() {
               <div className="">
                 <Link
                   href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539] rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
+                  className="flex items-center justify-center border-[1px] border-[#353539]
+                   rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
                 >
                   <FaTwitter className="text-white text-[1.2rem]" />
                 </Link>
@@ -184,7 +190,8 @@ function Footer() {
               <div className="">
                 <Link
                   href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539] rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
+                  className="flex items-center justify-center border-[1px] border-[#353539]
+                   rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
                 >
                   <FaInstagram className="text-white text-[1.2rem]" />
                 </Link>
@@ -192,7 +199,8 @@ function Footer() {
               <div className="">
                 <Link
                   href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539] rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
+                  className="flex items-center justify-center border-[1px] border-[#353539]
+                   rounded-full p-3 hover:bg-[#6C4DE7] transition-all duration-300"
                 >
                   <FaLinkedinIn className="text-white text-[1.2rem]" />
                 </Link>

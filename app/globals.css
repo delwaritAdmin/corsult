@@ -2,29 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* styles/hover-styles.css */
+@import 'hover.css/css/hover.css';
+/* Your custom styles and hover effects can be added here */
+
+
+.hvr-bounce-to-left:before{
+    background-color: #0180EB !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.hvr-bounce-to-right:before{
+    background-color: #232630 !important;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+.hvr-underline-from-center:before{
+  background-color: #0180EB !important;
+}
+
 
 .bg-gradient {
   background-color: transparent;

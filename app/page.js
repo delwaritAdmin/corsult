@@ -7,6 +7,7 @@ import Footer from "./components/Footer"
 import Learn from "./components/Learn"
 import Work from "./components/Work"
 import Research from "./components/Research"
+import Footers from "./components/Footers"
 
 
 export default function Home() {
@@ -18,7 +19,8 @@ export default function Home() {
        <Work/>
        <Research/>
        <Learn/>
-       <Footer/>
+       {/* <Footer/> */}
+       <Footers/>
     </>
   )
 }
