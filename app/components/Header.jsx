@@ -36,6 +36,18 @@ export default function Header() {
           Home
         </a>
       </Typography>
+
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="py-2 px-5 font-medium hover:bg-[#2D2945] rounded-full transition-all duration-300 "
+      >
+        <a href="#" className="flex items-center text-lg">
+        Services
+        </a>
+      </Typography>
+
       <Typography
         as="li"
         variant="small"
@@ -46,6 +58,8 @@ export default function Header() {
           Product
         </a>
       </Typography>
+      
+
       <Typography
         as="li"
         variant="small"
@@ -63,7 +77,17 @@ export default function Header() {
         className="py-1 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
         <a href="#" className="flex items-center text-lg">
-          Blog
+        Our Clients  
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="py-2 px-5 font-medium hover:bg-[#2D2945] rounded-full transition-all duration-300 "
+      >
+        <a href="#" className="flex items-center text-lg">
+        Careers 
         </a>
       </Typography>
       <Typography
@@ -76,6 +100,9 @@ export default function Header() {
           Contact
         </a>
       </Typography>
+
+
+
     </ul>
   );
 
