@@ -58,3 +58,14 @@
   background-size: cover;
   background-repeat: repeat-x;
 }
+
+.video-area {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50px);
+}
+
+.img_animation {
+  opacity: .5;
+  animation: rotate 8s linear infinite;
+}

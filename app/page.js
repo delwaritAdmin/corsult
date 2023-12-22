@@ -8,6 +8,8 @@ import Learn from "./components/Learn"
 import Work from "./components/Work"
 import Research from "./components/Research"
 import Footers from "./components/Footers"
+import TechStack from "./components/TechStack"
+import Lifecycle from "./components/Lifecycle"
 
 
 export default function Home() {
@@ -17,7 +19,9 @@ export default function Home() {
        <Hero/>
        <Services/>
        <Work/>
+       <Lifecycle/>
        <Research/>
+       <TechStack/>
        <Learn/>
        {/* <Footer/> */}
        <Footers/>
