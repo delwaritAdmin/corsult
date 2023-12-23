@@ -8,7 +8,7 @@ import Learn from "./components/Learn"
 import Work from "./components/Work"
 import Research from "./components/Research"
 import Footers from "./components/Footers"
-import TechStack from "./components/TechStack"
+import Review from "./components/Review"
 import Lifecycle from "./components/Lifecycle"
 
 
@@ -21,9 +21,8 @@ export default function Home() {
        <Work/>
        <Lifecycle/>
        <Research/>
-       <TechStack/>
+       <Review/>
        <Learn/>
-       {/* <Footer/> */}
        <Footers/>
     </>
   )

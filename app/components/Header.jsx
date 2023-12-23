@@ -191,7 +191,7 @@ export default function Header() {
           <div>
             <Link
               href="#"
-              className="hvr-bounce-to-left overflow-hidden flex items-center gap-2 font-semibold hover:text-white border-[#32C5FA] border-2  rounded-full py-3 px-9 text-sm uppercase"
+              className="hvr-bounce-to-left overflow-hidden flex items-center gap-2 font-semibold hover:text-white border-[#32C5FA] border-2  rounded-[10px] py-3 px-9 text-sm uppercase"
             >
               Get a Quote
             </Link>
