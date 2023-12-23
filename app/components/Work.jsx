@@ -24,7 +24,7 @@ function Work() {
               based on business requirements.
             </p>
             </div>
-            <div className="py-8 grid grid-cols-2 gap-10">
+            <div className="py-8 grid grid-cols-2 gap-5 md:gap-8 ">
               <div className="bg-white rounded-lg p-8 flex flex-col justify-center items-center">
                 <div>
                   <svg

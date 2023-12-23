@@ -10,6 +10,8 @@ import Research from "./components/Research"
 import Footers from "./components/Footers"
 import Review from "./components/Review"
 import Lifecycle from "./components/Lifecycle"
+import States from "./components/States"
+import ContactUs from "./components/ContactUs"
 
 
 export default function Home() {
@@ -21,8 +23,10 @@ export default function Home() {
        <Work/>
        <Lifecycle/>
        <Research/>
+       <States/>
        <Review/>
        <Learn/>
+       <ContactUs/>
        <Footers/>
     </>
   )
