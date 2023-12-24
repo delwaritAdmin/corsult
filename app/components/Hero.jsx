@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa6";
 function Hero() {
   return (
     <section>
-      <div className="bg-[#151130fd] w-full  py-20 lg:py-40">
+      <div className="bg-[#22262A] w-full  py-20 lg:py-40">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3">
             <div className="space-y-3 lg:col-span-2">

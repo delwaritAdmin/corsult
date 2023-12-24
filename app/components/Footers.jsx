@@ -16,7 +16,7 @@ import {
 function Footers() {
   return (
     <section>
-      <div className="bg-[#000000] w-full pt-20 pb-10">
+      <div className="bg-[#000000f8] w-full pt-20 pb-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col  items-center gap-2 text-white">
             <h3 className="text-xl">Have a Project To Discuss?</h3>
