@@ -115,3 +115,23 @@
   color: #fff;
   background-color: #027EEC;
 }
+
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquees {
+  display: flex;
+  animation: marquees 50s linear infinite;
+}
+
+@keyframes marquees {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

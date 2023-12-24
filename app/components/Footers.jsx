@@ -370,14 +370,14 @@ function Footers() {
           </div>
           <div className="pt-10 text-white flex flex-col gap-4 lg:flex-row lg:justify-between">
             <p>© Tekrevol 2023. All rights reserved</p>
-             <div className="flex gap-2">
+             <div className="flex gap-1 md:gap-2">
              <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
                   Terms and Conditions
                 </Link>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1 md:gap-2">
                   <p className=" cursor-default">|</p>
                   <Link
                     href={"#"}
@@ -386,7 +386,7 @@ function Footers() {
                     Privacy Policy
                   </Link>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1 md:gap-2">
                   <p className=" cursor-default">|</p>
                   <Link
                     href={"#"}

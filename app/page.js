@@ -12,6 +12,7 @@ import Review from "./components/Review"
 import Lifecycle from "./components/Lifecycle"
 import States from "./components/States"
 import ContactUs from "./components/ContactUs"
+import TechStack from "./components/TechStack"
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
        <Hero/>
        <Services/>
        <Work/>
+       <TechStack/>
        <Lifecycle/>
        <Research/>
        <States/>
