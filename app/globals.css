@@ -125,6 +125,7 @@
 .marquees {
   display: flex;
   animation: marquees 50s linear infinite;
+  white-space: nowrap;
 }
 
 @keyframes marquees {
