@@ -13,6 +13,7 @@ import Lifecycle from "./components/Lifecycle"
 import States from "./components/States"
 import ContactUs from "./components/ContactUs"
 import TechStack from "./components/TechStack"
+import Industries from "./components/Industries"
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
        <States/>
        <Review/>
        <Learn/>
+       <Industries/>
        <ContactUs/>
        <Footers/>
     </>

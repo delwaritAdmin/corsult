@@ -24,74 +24,70 @@ function Learn() {
         </div>
       </div>
       {/* ================================ */}
-      <div className="bg-white w-full py-20">
+      <div className="bg-[#F2F2F2] w-full py-20">
         <div className="container mx-auto px-4">
-          <div className="text-center space-y-3">
-            <p className="text-[#fc3b50] ">Our App Development Process</p>
-            <h2 className="text-[#2F304B] text-5xl font-bold leading-[55px] lg:px-28">
-              Key Steps In Out Mobile App Development Process
-            </h2>
-            <p className="lg:px-20 lg:pt-5">
-              We provide full-cycle mobile app development to fit your business
-              domain and budget requirements.
+          <div className="text-center space-y-2">
+          <p className=" uppercase lg:px-20 lg:pt-5">
+              Our Software development
             </p>
+            <h2 className="text-[#2F304B] text-5xl font-bold leading-[55px] lg:px-28">
+              Process
+            </h2>
+            
           </div>
-          <div className="pt-16 grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-x-8">
-            <div className="space-y-3 border-b-[1px] border-[#2f304533] pb-8">
-              <h1 className="font-bold text-5xl text-[#41A2DA]">01</h1>
-              <h2 className="text-[#41A2DA] text-3xl font-semibold">
-                Discovery & Strategy
+          <div className="pt-16 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+            <div className="space-y-2 shadow-lg lg:shadow-xl p-5">
+              <h1 className="font-bold text-4xl text-[#41A2DA]">01</h1>
+              <h2 className="text-[#41A2DA] text-2xl font-semibold">
+                Requierment Analysis
               </h2>
-              <p className="text-sm tracking-wide leading-5">
-                We sign confidentiality (NDA) and hear your App idea and
-                discover the App features together and convert those into
-                feature specific document and strategize with you the delivery
-                sequence from prototype to MVP to full product.
+              <p className="text-lg tracking-wide leading-5 pt-3">
+                Understand your needs, objectives, and the  challenges the software aims to address.  
               </p>
             </div>
-            <div className="space-y-3 border-b-[1px] border-[#2f304533] pb-8">
-              <h1 className="font-bold text-5xl text-[#15245A]">02</h1>
-              <h2 className="text-[#15245A] text-3xl font-semibold">
-                Discovery & Strategy
+            <div className="space-y-2 shadow-lg lg:shadow-xl p-5">
+              <h1 className="font-bold text-4xl text-[#15245A]">02</h1>
+              <h2 className="text-[#15245A] text-2xl font-semibold">
+                Planning & Design
               </h2>
-              <p className="text-sm tracking-wide leading-5">
-              We decide on the technologies and deep level libraries and architecture needed to achieve the App and also the team. We do the estimation of the project on the basis of man hours and price it out and divide the project into milestone or Agile sprints.
+              <p className="text-lg tracking-wide leading-5 pt-5">
+              Draft a detailed plan and create a blueprint, conbering architecture ,user interface, user experience.
               </p>
             </div>
-            <div className="space-y-3 border-b-[1px] border-[#2f304533] pb-8">
-              <h1 className="font-bold text-5xl text-[#F2BB11]">03</h1>
-              <h2 className="text-[#F2BB11] text-3xl font-semibold">
-              UI/UX Design
+            <div className="space-y-2 shadow-lg lg:shadow-xl p-5">
+              <h1 className="font-bold text-4xl text-[#F2BB11]">03</h1>
+              <h2 className="text-[#F2BB11] text-2xl font-semibold">
+              Development   
               </h2>
-              <p className="text-sm tracking-wide leading-5">
-              Since modern software engineering is extremely user focused, we first layout how the App is going to look to its actual users. We first create the Wireframes and then polished high fidelity UI/UX designs which simulates the real experience that the user is going to get on the actual App.
+              <p className="text-lg tracking-wide leading-5 pt-3">
+              Code software, ensuring each module aligns with the design and function samiessly.
               </p>
             </div>
-            <div className="space-y-3 border-b-[1px] border-[#2f304533] pb-8">
-              <h1 className="font-bold text-5xl text-[#FB9F00]">04</h1>
-              <h2 className="text-[#FB9F00] text-3xl font-semibold">
-              Full App Development
+            <div className="space-y-2   shadow-lg lg:shadow-xl p-5">
+              <h1 className="font-bold text-4xl text-[#FB9F00]">04</h1>
+              <h2 className="text-[#FB9F00] text-2xl font-semibold">
+              Testing
               </h2>
-              <p className="text-sm tracking-wide leading-5">
-              We do the Architecture for the whole product from front end (App or PWA or web app) to backend (DB and API) to integration with third party libraires (Ex. Payment gateway, authentication libraries etc), divide the tasks among the development team and start the development and follow the release schedule.
+              <p className="text-lg tracking-wide leading-5 pt-3">
+              Rigorously enaluate the software for bugs, performance issues, and reliability.
               </p>
             </div>
-            <div className="space-y-3 border-b-[1px] border-[#2f304533] pb-8">
-              <h1 className="font-bold text-5xl text-[#2ABD69]">05</h1>
-              <h2 className="text-[#2ABD69] text-3xl font-semibold">
-              App Testing & QA
+            <div className="space-y-2    shadow-lg lg:shadow-xl p-5">
+              <h1 className="font-bold text-4xl text-[#2ABD69]">05</h1>
+              <h2 className="text-[#2ABD69] text-2xl font-semibold">
+              Deployment
               </h2>
-              <p className="text-sm tracking-wide leading-5">
-              The Testing process happens all the time along with the development. We send you weekly interim releases only after testing those ourselves and once you approve, we move onto the next week’s development sprint.
+              <p className="text-lg tracking-wide leading-5 pt-3">
+              Launch the software in a live enbironment, making it accessible to end-users.
               </p>
             </div>
-            <div className="space-y-3 border-b-[1px] border-[#2f304533] pb-8">
-              <h1 className="font-bold text-5xl text-[#236086]">06</h1>
-              <h2 className="text-[#236086] text-3xl font-semibold">
-              Deployment--Support--Scaling
+            <div className="space-y-2 shadow-lg lg:shadow-xl p-5">
+              <h1 className="font-bold text-4xl text-[#236086]">06</h1>
+              <h2 className="text-[#236086] text-2xl font-semibold">
+              Maintenance & support
               </h2>
-              <p className="text-sm tracking-wide leading-5">
-              Once App is created, we put those on the App stores in your name and make the Backend live on Production. We start doing support & maintenance as soon as the App is live and as soon as you get more and more traction, we help you scaling the product on right cloud platforms so it is able to cater large number of concurrent users (in millions).
+              <p className="text-lg tracking-wide leading-5">
+              Provide ongoing support, addressing any updates, issues, or inprovenents to keep the software optimal.
               </p>
             </div>
           </div>
