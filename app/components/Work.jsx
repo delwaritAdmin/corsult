@@ -8,11 +8,11 @@ function Work() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-10 lg:items-center">
             <div>
-            <div className="-space-y-3">
-              <h1 className="text-white font-bold text-6xl lg:text-8xl font-serif brightness-50 z-0">
+            <div className="-space-y-5">
+              <h1 className="text-white text-transform font-bold text-7xl lg:text-8xl z-0">
                 Work
               </h1>
-              <h2 className="text-white font-bold text-4xl brightness-200">
+              <h2 className="text-white font-bold text-5xl brightness-200">
                 Who We Work With
               </h2>
             </div>

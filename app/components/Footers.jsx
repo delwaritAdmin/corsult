@@ -24,7 +24,7 @@ function Footers() {
             <div className="pt-12">
               <Link
                 href={"#"}
-                className="text-[#0180EB] hover:text-white border-2 border-[#32C5FA] rounded-full py-4 px-10 hover:bg-[#0180EB] transition-all duration-300"
+                className="text-[#0180EB] hover:text-white border-2 border-[#32C5FA] rounded-full py-4 px-10 hvr-bounce-to-left overflow-hidden transition-all duration-200"
               >
                 LET&rsquo;S CONNECT!
               </Link>
