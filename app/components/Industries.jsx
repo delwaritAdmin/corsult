@@ -21,7 +21,7 @@ function Industries() {
         <div className="container mx-auto px-4">
           <div className="p-6 grid grid-cols-1 gap-8 lg:grid-cols-5 lg:items-center lg:gap-0 lg:gap-x-8">
             <div className="bg-[#F6F8FB] p-5 lg:py-16 rounded-xl lg:col-span-2">
-              <h2 className="font-bold text-black text-4xl lg:text-5xl">
+              <h2 className="font-bold text-[#2b2b2b] text-4xl lg:text-5xl">
                 Industries We <br />
                 Serve
               </h2>
@@ -36,7 +36,7 @@ function Industries() {
               <div className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4">
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <FaHandHoldingHeart className="text-3xl text-black" />
+                    <FaHandHoldingHeart className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -47,7 +47,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <BsFillBagCheckFill className="text-3xl text-black" />
+                    <BsFillBagCheckFill className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -58,7 +58,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <BsBank className="text-3xl text-black" />
+                    <BsBank className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -69,7 +69,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <IoIosSchool className="text-3xl text-black" />
+                    <IoIosSchool className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -80,7 +80,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <FaBrazilianRealSign className="text-2xl text-black" />
+                    <FaBrazilianRealSign className="text-2xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -91,7 +91,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <GiFactory className="text-3xl text-black" />
+                    <GiFactory className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -102,7 +102,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <FaShippingFast className="text-3xl text-black" />
+                    <FaShippingFast className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -113,7 +113,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <ImTicket className="text-3xl text-black" />
+                    <ImTicket className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -124,7 +124,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <FaHospitalUser className="text-3xl text-black" />
+                    <FaHospitalUser className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -135,7 +135,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <FaToolbox className="text-3xl text-black" />
+                    <FaToolbox className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -146,7 +146,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <VscLaw className="text-3xl text-black" />
+                    <VscLaw className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}
@@ -157,7 +157,7 @@ function Industries() {
                 </div>
                 <div className="bg-white shadow-lg lg:shadow-xl p-4 lg:py-6 flex flex-col gap-2 items-center rounded-md cursor-pointer hvr-bounce-to-left overflow-hidden hover:text-white text-[#027EEC]">
                   <div className="bg-[#eaf3ff] p-5 rounded-xl">
-                    <FaTools className="text-3xl text-black" />
+                    <FaTools className="text-3xl text-[#444444]" />
                   </div>
                   <Link
                     href={"#"}

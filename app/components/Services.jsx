@@ -8,7 +8,7 @@ function Services() {
   return (
     <section>
       <div className="bg-[#030308ef] w-full py-20">
-        <div className="pb-8 lg:pb-28 space-y-4 cursor-default">
+        <div className="pb-8 lg:pb-28 space-y-4 cursor-default lg:hidden ">
           <marquee direction="right">
             <div className="text-[#353539] flex gap-3">
               <p className="text-5xl font-bold lg:text-7xl">BRANDING</p>

@@ -109,7 +109,7 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 md:px-4 lg:px-8 lg:py-4 bg-[#151130] border-none"
+      className="sticky top-0 z-50 h-max max-w-full rounded-none py-2 md:px-4 lg:px-8 lg:py-4 bg-[#151130] border-none"
     >
       <div className="flex items-center container mx-auto px-4 justify-between text-blue-gray-900">
         <Typography

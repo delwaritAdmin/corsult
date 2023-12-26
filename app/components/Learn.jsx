@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 function Learn() {
   return (
     <section>
-      <div className="bg-gradient py-20 w-full">
+      <div className="background_img_2 py-20 w-full">
         <div className="conatiner mx-auto px-4">
           <div className="flex flex-col items-center justify-center gap-2">
             <h1 className="text-white font-semibold text-4xl lg:text-6xl lg:leading-[75px] text-center">
@@ -15,9 +16,10 @@ function Learn() {
             <div className="pt-10">
               <Link
                 href={"#"}
-                className="text-white font-semibold bg-[#28293B] py-4 px-10 rounded-full hover:bg-[#28293bea] transition-all duration-200"
+                className="text-white flex items-center gap-2 font-semibold bg-[#232630] py-4 px-10 rounded-full hvr-bounce-to-left overflow-hidden border-[#32C5FA] border-2 transition-all duration-200"
               >
-                Talk to an Expert
+                <p>Talk to an Expert</p>
+                <FaArrowRightLong className="mt-1"/>
               </Link>
             </div>
           </div>

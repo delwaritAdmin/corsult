@@ -4,6 +4,7 @@ import Link from "next/link";
 import Hero_img from "../img/hero_img.png";
 import img_ani from "../img/animation_text.svg";
 import { FaArrowRight } from "react-icons/fa6";
+import { GoNorthStar } from "react-icons/go";
 
 function Hero() {
   return (
@@ -51,7 +52,7 @@ function Hero() {
             </div>
             <div className="hidden lg:block">
               <div className=" flex lg:-mt-20">
-                <div className="border border-[#027EEC] rounded-[20rem] ">
+                <div className="border border-[#027EEC] rounded-[20rem] z-40 ">
                   <Image
                     src={Hero_img}
                     alt="Hero"
@@ -62,17 +63,95 @@ function Hero() {
             </div>
           </div>
 
-          {/* <div className="-mt-20 z-0 opacity-1">
-            <marquee direction="left">
-            <div className="text-[#242424] flex gap-3 py-2">
-              <p className="text-5xl font- font-extrabold lg:text-7xl">Our agency make your happyness</p>
-              <p className="text-5xl font- font-extrabold lg:text-7xl">Our agency make your happyness</p>
+          <div className=" space-y-4 -mt-28 cursor-default hidden lg:block">
+            <marquee direction="right">
+              <div className="text-[#1b1b1b] flex gap-3">
+                <p className="text-5xl font-bold lg:text-7xl">BRANDING</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">
+                  WEB DEVELOPMENT
+                </p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">
+                  FRONT END DESIGN
+                </p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">WORDPRESS</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">UXAUDIT</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">
+                  MOBILE APP DEVELOPMENT
+                </p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">ECOMMERCE</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">UI/UX DESIGN</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
               </div>
             </marquee>
-          </div> */}
+            <marquee direction="">
+              <div className="text-[#1b1b1b] flex gap-3">
+                <p className="text-5xl font-bold lg:text-7xl">BRANDING</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">
+                  WEB DEVELOPMENT
+                </p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">
+                  FRONT END DESIGN
+                </p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">WORDPRESS</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">UXAUDIT</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">
+                  MOBILE APP DEVELOPMENT
+                </p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">ECOMMERCE</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+                <p className="text-5xl lg:text-7xl font-bold">UI/UX DESIGN</p>
+                <div className="mt-5 lg:mt-10">
+                  <GoNorthStar className="text-[#7654FD] text-2xl" />
+                </div>
+              </div>
+            </marquee>
+          </div>
           <div className="pt-16 lg:-mt-20">
             <div className="flex items-center justify-between">
-              <div>
+              <div className="lg:mt-20">
                 <Link href={"#"} className="">
                   <div className="flex items-center gap-1">
                     <p className=" uppercase text-white font-semibold ">
@@ -82,7 +161,7 @@ function Hero() {
                   </div>
                 </Link>
               </div>
-              <div className=" lg:absolute video-area pl-64 md:pl-[40rem] lg:pl-0">
+              <div className=" lg:absolute video-area pl-64 md:pl-[40rem] lg:pl-0 lg:mt-20">
                 <div className="img_animation ">
                   <Image src={img_ani} alt="amimation" className="" />
                 </div>

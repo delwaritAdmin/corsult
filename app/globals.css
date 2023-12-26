@@ -59,6 +59,15 @@
   background-repeat: repeat-x;
 }
 
+.background_img_2{
+  background-image:linear-gradient(to bottom, #222430ec, #222430c4),
+   url(./img/bg_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .video-area {
   position: absolute;
   left: 50%;

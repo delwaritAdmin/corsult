@@ -25,7 +25,7 @@ export default function Home() {
        <Work/>
        <TechStack/>
        <Lifecycle/>
-       <Research/>
+       {/* <Research/> */}
        <States/>
        <Review/>
        <Learn/>
