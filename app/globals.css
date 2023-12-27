@@ -117,3 +117,13 @@
     transform: translateX(-100%);
   }
 }
+
+
+@keyframes spining {
+  to {
+      transform: rotate(360deg);
+  }
+}
+.animate-spining {
+  animation: spin 5s linear infinite;
+}

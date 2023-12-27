@@ -139,7 +139,9 @@ function TechStack() {
             <marquee direction="left">
               <div className="  flex items-center gap-5 flex-wrap md:gap-10">
                 <div className="flex flex-col gap-4 items-center">
+                  <div className="">
                   <Image src={logo_21} alt="logo" className="w-20" />
+                  </div>
                   <p>Python</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
