@@ -1,4 +1,36 @@
+&rsquo;
+
+Corsult --- Customization
+=========================
+
+remove social logos from the top bar and place a cat button on in.
+
+try to improve the hero section
+
+try to decrase margary font size - 10px
+
+Modify the foooter like --- https://www.tekrevol.com/
+
+Add Review section like  --- https://firehydrant.com/
+
+Add Tech stack section Lilke -- https://www.comtrade360.com/
+
+Indersty we serve -- https://www.alliancetek.com/
+
+Life Cycle -- https://www.solwey.com/
+
+
+Softwer Solution Project 
+=====================
+https://itexus.com/
+
+
+https://userway.org/
 
 
 
 
+for hero section 
+================
+
+https://preview.themeforest.net/item/alquran-islamic-institute-mosque-html-template/full_screen_preview/49236536?_ga=2.173475363.1082515078.1703257380-1350845274.1703257380

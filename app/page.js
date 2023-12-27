@@ -8,8 +8,13 @@ import Learn from "./components/Learn"
 import Work from "./components/Work"
 import Research from "./components/Research"
 import Footers from "./components/Footers"
-import TechStack from "./components/TechStack"
+import Review from "./components/Review"
 import Lifecycle from "./components/Lifecycle"
+import States from "./components/States"
+import ContactUs from "./components/ContactUs"
+import TechStack from "./components/TechStack"
+import Industries from "./components/Industries"
+import NewTechStack from "./components/NewTechStack"
 
 
 export default function Home() {
@@ -18,12 +23,16 @@ export default function Home() {
        <Header/>
        <Hero/>
        <Services/>
-       <Work/>
+       {/* <Work/> */}
+       {/* <TechStack/> */}
+        {/* <NewTechStack/> */}
        <Lifecycle/>
-       <Research/>
-       <TechStack/>
+       {/* <Research/> */}
+       {/* <States/> */}
+       <Review/>
        <Learn/>
-       {/* <Footer/> */}
+       <Industries/>
+       <ContactUs/>
        <Footers/>
     </>
   )

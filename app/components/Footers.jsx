@@ -16,7 +16,7 @@ import {
 function Footers() {
   return (
     <section>
-      <div className="bg-[#000000] w-full pt-20 pb-10">
+      <div className="bg-[#000000f8] w-full pt-20 pb-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col  items-center gap-2 text-white">
             <h3 className="text-xl">Have a Project To Discuss?</h3>
@@ -24,7 +24,7 @@ function Footers() {
             <div className="pt-12">
               <Link
                 href={"#"}
-                className="text-[#0180EB] hover:text-white border-2 border-[#32C5FA] rounded-full py-4 px-10 hover:bg-[#0180EB] transition-all duration-300"
+                className="text-[#0180EB] hover:text-white border-2 border-[#32C5FA] rounded-full py-4 px-10 hvr-bounce-to-left overflow-hidden transition-all duration-200"
               >
                 LET&rsquo;S CONNECT!
               </Link>
@@ -370,14 +370,14 @@ function Footers() {
           </div>
           <div className="pt-10 text-white flex flex-col gap-4 lg:flex-row lg:justify-between">
             <p>© Tekrevol 2023. All rights reserved</p>
-             <div className="flex gap-2">
+             <div className="flex gap-1 md:gap-2">
              <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
                   Terms and Conditions
                 </Link>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1 md:gap-2">
                   <p className=" cursor-default">|</p>
                   <Link
                     href={"#"}
@@ -386,7 +386,7 @@ function Footers() {
                     Privacy Policy
                   </Link>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1 md:gap-2">
                   <p className=" cursor-default">|</p>
                   <Link
                     href={"#"}

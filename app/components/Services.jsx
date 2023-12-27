@@ -7,8 +7,8 @@ import { GoNorthStar } from "react-icons/go";
 function Services() {
   return (
     <section>
-      <div className="bg-[#030308] w-full py-20">
-        <div className="pb-8 lg:pb-28 space-y-4 cursor-default">
+      <div className="bg-[#02020af8] w-full py-20">
+        {/* <div className="pb-8 lg:pb-28 space-y-4 cursor-default lg:hidden ">
           <marquee direction="right">
             <div className="text-[#353539] flex gap-3">
               <p className="text-5xl font-bold lg:text-7xl">BRANDING</p>
@@ -85,10 +85,10 @@ function Services() {
               </div>
             </div>
           </marquee>
-        </div>
+        </div> */}
         <div className="container mx-auto px-4 ">
           <div className="grid grid-cols-1 gap-16 lg:grid-cols-2">
-            <div className="space-y-3 text-center lg:text-start lg:sticky lg:top-28 lg:h-screen">
+            <div className="space-y-3 text-center lg:text-start lg:sticky lg:top-64 lg:h-screen">
               <p className=" font-semibold text-[#FFE600]">Our Services</p>
               <h2 className=" text-5xl text-white font-bold lg:text-6xl">
                 We help your business grow
@@ -102,7 +102,7 @@ function Services() {
               </p>
             </div>
             <div className=" grid grid-cols-1 gap-10 cursor-default">
-              <div className="bg-[#1C1C20] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -124,7 +124,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#1C1C20] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -146,7 +146,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#1C1C20] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -167,7 +167,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#1C1C20] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -188,7 +188,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#1C1C20] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -210,7 +210,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#1C1C20] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">

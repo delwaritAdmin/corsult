@@ -26,7 +26,7 @@ export default function Header() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-4">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2">
       <Typography
         as="li"
         variant="small"
@@ -109,7 +109,7 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 md:px-4 lg:px-8 lg:py-4 bg-[#151130] border-none"
+      className="sticky top-0 z-50 h-max max-w-full rounded-none py-2 md:px-4 lg:px-8 lg:py-4 bg-[#151130] border-none"
     >
       <div className="flex items-center container mx-auto px-4 justify-between text-blue-gray-900">
         <Typography
@@ -191,7 +191,7 @@ export default function Header() {
           <div>
             <Link
               href="#"
-              className="hvr-bounce-to-left overflow-hidden flex items-center gap-2 font-semibold hover:text-white border-[#32C5FA] border-2  rounded-full py-3 px-9 text-sm uppercase"
+              className="hvr-bounce-to-left overflow-hidden flex items-center gap-2 font-semibold hover:text-white border-[#32C5FA] border-2  rounded-[10px] py-3 px-9 text-sm uppercase"
             >
               Get a Quote
             </Link>

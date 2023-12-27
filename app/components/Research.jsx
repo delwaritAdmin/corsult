@@ -8,7 +8,7 @@ import image_3 from "../img/research_3.jpg";
 function Research() {
   return (
     <section>
-      <div className="bg-[#151130fd] w-full py-20">
+      <div className="bg-[#22262A] w-full py-20">
         <div className="container mx-auto px-4">
           <div className="space-y-2 text-center">
             <h3 className="text-white font-semibold text-3xl lg:text-5xl">
