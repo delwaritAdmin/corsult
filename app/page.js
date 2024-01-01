@@ -14,6 +14,7 @@ import States from "./components/States"
 import ContactUs from "./components/ContactUs"
 import TechStack from "./components/TechStack"
 import Industries from "./components/Industries"
+import NewTechStack from "./components/NewTechStack"
 
 
 export default function Home() {
@@ -22,11 +23,12 @@ export default function Home() {
        <Header/>
        <Hero/>
        <Services/>
-       <Work/>
-       <TechStack/>
+       {/* <Work/> */}
+       {/* <TechStack/> */}
+        {/* <NewTechStack/> */}
        <Lifecycle/>
        {/* <Research/> */}
-       <States/>
+       {/* <States/> */}
        <Review/>
        <Learn/>
        <Industries/>

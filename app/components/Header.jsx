@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   MobileNav,
   Typography,
-  Button,
   IconButton,
 } from "@material-tailwind/react";
+
 import Image from "next/image";
 import * as Scroll from "react-scroll";
 import { Link } from "react-scroll";
@@ -18,15 +18,34 @@ import { IoMdClose } from "react-icons/io";
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false);
 
+  const [sticy, setSticy] = useState(false);
+
   React.useEffect(() => {
-    window.addEventListener(
-      "resdize",
-      () => window.innerWidth >= 960 && setOpenNav(false)
-    );
+    window.addEventListener("resdize", () => {
+      window.innerWidth >= 960 && setOpenNav(false);
+    });
+
+    const handleScroll = () => {
+      if (window.scrollY >= 50) {
+        // Your function to be executed when scrolled 150px
+        setSticy(true);
+        // Add your custom logic or function call here
+      } else {
+        setSticy(false);
+      }
+    };
+
+    // Attach the event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2">
+    <ul className="mb-4 mt-2 flex  flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2">
       <Typography
         as="li"
         variant="small"
@@ -44,7 +63,7 @@ export default function Header() {
         className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
         <a href="#" className="flex items-center text-sm">
-        Services
+          Services
         </a>
       </Typography>
 
@@ -58,7 +77,6 @@ export default function Header() {
           Product
         </a>
       </Typography>
-      
 
       <Typography
         as="li"
@@ -77,7 +95,7 @@ export default function Header() {
         className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
         <a href="#" className="flex items-center text-sm">
-        Our Clients  
+          Our Clients
         </a>
       </Typography>
       <Typography
@@ -87,7 +105,7 @@ export default function Header() {
         className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
         <a href="#" className="flex items-center text-sm">
-        Careers 
+          Careers
         </a>
       </Typography>
       <Typography
@@ -100,18 +118,17 @@ export default function Header() {
           Contact
         </a>
       </Typography>
-
-
-
     </ul>
   );
 
   return (
     <Navbar
       id="header"
-      className="sticky top-0 z-50 h-max max-w-full rounded-none py-2 md:px-4 lg:px-8 lg:py-4 bg-[#151130] border-none"
+      className={`header-area absolute top-0 z-50 rounded-none bg-transparent border-none${
+        sticy ? "   fixed  bg-black" : "  "
+      }`}
     >
-      <div className="flex items-center container mx-auto px-4 justify-between text-blue-gray-900">
+      <div className="flex items-center container   py-[.30rem]   mx-auto max-w-full  px-4 justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="/"
@@ -191,7 +208,11 @@ export default function Header() {
           <div>
             <Link
               href="#"
-              className="hvr-bounce-to-left overflow-hidden flex items-center gap-2 font-semibold hover:text-white border-[#32C5FA] border-2  rounded-[10px] py-3 px-9 text-sm uppercase"
+              className="hvr-bounce-to-left
+              
+              
+         
+              overflow-hidden flex items-center gap-2 hover:text-white  text-primary border-primary border font-semibold  rounded-md py-2 px-7 text-[16px]  uppercase"
             >
               Get a Quote
             </Link>

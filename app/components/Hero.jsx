@@ -1,38 +1,48 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Hero_img from "../img/hero_img.png";
 import img_ani from "../img/animation_text.svg";
 import { FaArrowRight } from "react-icons/fa6";
-import { GoNorthStar } from "react-icons/go";
+// import TypeAnimation from "react-type-animation";
 
 function Hero() {
+  const strings = ["hllo"];
+
   return (
-    <section>
-      <div className="bg-[#22262A] w-full  py-20 lg:py-40">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-3">
+    <section className=" min-h-[100vh] relative">
+      <div className="bg-[#22262A] overflow-hidden  relative banner-area w-full  py-20 lg:pt-40">
+        <div className="container mx-auto px-[5rem] ">
+          <div className="grid grid-cols-1   pt-[6rem] lg:grid-cols-3">
             <div className="space-y-3 lg:col-span-2">
-              <h1 className="text-3xl lg:text-5xl text-white font-bold leading-[45px] lg:leading-[70px] tracking-[1px]">
-                Set Your{" "}
-                <Link
-                  href={"#"}
-                  className="text-[#027EEC] font-bold underline underline-offset-4 border-[#027EEC] "
-                >
-                  Business
-                </Link>{" "}
-                <br />
-                With Innovative Idea
-              </h1>
-              <p className="text-white text-sm xl:text-[1rem] lg:leading-[30px]  pr-20">
+              {/* <TypeAnimation
+                text={[
+                  "<h1>Hello</h1>",
+                  "<p>This is a paragraph.</p>",
+                  "<div><strong>Styled</strong> content.</div>",
+                  '<a href="#">Link</a>',
+                  // Add more JSX content as needed
+                ]}
+                speed={50} // Typing speed in milliseconds
+                cursorBlinkRate={500} // Cursor blink rate in milliseconds
+              /> */}
+
+              {/* <TypeAnimation
+                strings={strings}
+                className="text-3xl lg:text-[4.3rem] text-white font-bold leading-[45px] lg:leading-[100px] tracking-[1px]"
+                typeSpeed={50}
+                backSpeed={40}
+              /> */}
+
+              <p className="text-white  text-left text-sm xl:text-[1rem] lg:leading-[33px]  pr-[16rem]">
                 Curabitur sed facilisis erat. Vestibulum pharetra eros eget
                 fringilla porttitor. oltorrent gongi Duis a orci nunc.
                 Suspendisse ac convallis sapien, quis commodo libero. Donec nec
                 duomoi luctus, pellentesque lacus sed, mollis going leo.
               </p>
-              <div className="pt-5 z-40">
+              <div className="pt-8 z-40">
                 <Link href={"#"} className="flex items-center">
-                  <div className=" z-30">
+                  <div className=" z-30  ">
                     <svg
                       width={60}
                       fill="#027EEC"
@@ -45,71 +55,38 @@ function Hero() {
                   </div>
                   <div className="flex items-center gap-2 -ml-11 z-40">
                     <p className=" uppercase text-white ">view all work</p>
-                    <FaArrowRight className="text-[#027EEC]" />
+                    <FaArrowRight className="  text-white  block  transition-all duration-300 hover:rotate-0   -rotate-45" />
                   </div>
                 </Link>
               </div>
             </div>
             <div className="hidden lg:block">
-              <div className=" flex lg:-mt-20">
-                <div className="border border-[#027EEC] rounded-[20rem] z-40 ">
+              <div className=" flex ">
+                <div className="border border-[#027EEC] pr-4  rounded-[20rem] z-40 ">
                   <Image
                     src={Hero_img}
                     alt="Hero"
-                    className="lg:-ml-4 rounded-[20rem]"
+                    className=" -ml-2 max-w-[400px] rounded-[20rem]"
                   />
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className=" space-y-4 -mt-64 cursor-default hidden lg:block">
-            <marquee direction="right">
-              <div className="text-[#2C2C2C] flex gap-3">
-                <p className="text-5xl font-bold lg:text-7xl">BRANDING</p>
-                <div className="mt-5 lg:mt-10">
-                  <GoNorthStar className="text-[#7654FD] text-2xl" />
-                </div>
-                <p className="text-5xl lg:text-7xl font-bold">
-                  WEB DEVELOPMENT
-                </p>
-                <div className="mt-5 lg:mt-10">
-                  <GoNorthStar className="text-[#7654FD] text-2xl" />
-                </div>
-                <p className="text-5xl lg:text-7xl font-bold">
-                  FRONT END DESIGN
-                </p>
-                <div className="mt-5 lg:mt-10">
-                  <GoNorthStar className="text-[#7654FD] text-2xl" />
-                </div>
-                <p className="text-5xl lg:text-7xl font-bold">WORDPRESS</p>
-                <div className="mt-5 lg:mt-10">
-                  <GoNorthStar className="text-[#7654FD] text-2xl" />
-                </div>
-                <p className="text-5xl lg:text-7xl font-bold">UXAUDIT</p>
-                <div className="mt-5 lg:mt-10">
-                  <GoNorthStar className="text-[#7654FD] text-2xl" />
-                </div>
-                <p className="text-5xl lg:text-7xl font-bold">
-                  MOBILE APP DEVELOPMENT
-                </p>
-                <div className="mt-5 lg:mt-10">
-                  <GoNorthStar className="text-[#7654FD] text-2xl" />
-                </div>
-                <p className="text-5xl lg:text-7xl font-bold">ECOMMERCE</p>
-                <div className="mt-5 lg:mt-10">
-                  <GoNorthStar className="text-[#7654FD] text-2xl" />
-                </div>
-                <p className="text-5xl lg:text-7xl font-bold">UI/UX DESIGN</p>
-                <div className="mt-5 lg:mt-10">
-                  <GoNorthStar className="text-[#7654FD] text-2xl" />
-                </div>
-              </div>
-            </marquee>
+            {/* banner image */}
+
+            <div className="banerImage absolute top-[7.5rem] right-[15rem] ">
+              <Image
+                className="  rounded-[50%] w-[150px] h-[150px]   "
+                src={Hero_img}
+                width={150}
+                height={150}
+                alt="banner image"
+              />
+            </div>
           </div>
-          <div className="pt-16 lg:-mt-20">
+          <div className=" ">
             <div className="flex items-center justify-between">
-              <div className="lg:mt-40">
+              <div className="">
                 <Link href={"#"} className="">
                   <div className="flex items-center gap-1">
                     <p className=" uppercase text-white font-semibold ">
@@ -119,13 +96,24 @@ function Hero() {
                   </div>
                 </Link>
               </div>
-              <div className=" lg:absolute video-area pl-64 md:pl-[40rem] lg:pl-0 lg:mt-20">
+
+              <div className=" lg:absolute video-area pl-64 md:pl-[40rem] lg:pl-0 ">
                 <div className="img_animation ">
-                  <Image src={img_ani} alt="amimation" className="animate-spining" />
+                  <Image
+                    src={img_ani}
+                    alt="amimation"
+                    className="animate-spining"
+                  />
                 </div>
               </div>
             </div>
           </div>
+        </div>
+
+        <div className=" w-full  bg-transparent  absolute top-[68%]">
+          <p className="marquee-text text-[98px] text-white opacity-[.03] font-bold bg-transparent uppercase">
+            Our agency makes your happiness
+          </p>
         </div>
       </div>
     </section>

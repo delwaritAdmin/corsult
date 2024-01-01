@@ -14,10 +14,10 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 
 function Lifecycle() {
   return (
-    <section>
+    <section className=" bg-third py-6">
       <div className="bg-[] w-full py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-[#444444] text-3xl text-center">
+          <h2 className="text-[#02020af8]  font-semibold mb-4 text-3xl text-center">
             Development Lifecycle
           </h2>
           <div className="py-10 grid grid-cols-1 gap-12 md:grid-cols-5 md:gap-0 lg:gap-0">
