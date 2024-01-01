@@ -124,7 +124,10 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className={`header-area absolute top-0 z-50 rounded-none bg-transparent border-none${
+      className={`header-area absolute top-0 z-50 
+      
+      
+      rounded-none bg-transparent border-none${
         sticy ? "   fixed  bg-black" : "  "
       }`}
     >
@@ -142,7 +145,8 @@ export default function Header() {
             className="w-32 md:w-[80%] lg:w-[70%]"
           />
         </Typography>
-        <div className="block lg:hidden">
+
+        {/* <div className="block lg:hidden">
           <div className="flex items-center gap-2 order-2 ">
             <Link href="#">
               <div className="flex items-center justify-center p-1 md:p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
@@ -165,8 +169,9 @@ export default function Header() {
               </div>
             </Link>
           </div>
-        </div>
-        <div className="flex items-center gap-4">
+        </div> */}
+
+        <div className="flex items-center gap-4 justify-center">
           <div className="mr-4 hidden lg:block">{navList}</div>
 
           <IconButton
@@ -176,50 +181,15 @@ export default function Header() {
             onClick={() => setOpenNav(!openNav)}
           >
             {openNav ? (
-              <IoMdClose className="text-2xl text-[#027EEC]" />
+              <IoMdClose className="text-2xl  text-white" />
             ) : (
-              <GiHamburgerMenu className="text-2xl text-[#027EEC]" />
+              <GiHamburgerMenu className="text-2xl  text-white" />
             )}
           </IconButton>
         </div>
-        <div className="hidden lg:block">
-          {/* <div className="flex items-center gap-2 order-2 ">
-            <Link href="#">
-              <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
-                <BsTwitter className="text-[#B9B8C1] text-xl" />
-              </div>
-            </Link>
-            <Link href="#">
-              <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
-                <BsDiscord className="text-[#B9B8C1] text-xl" />
-              </div>
-            </Link>
-            <Link href="#">
-              <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
-                <FaFacebookF className="text-[#B9B8C1] text-xl" />
-              </div>
-            </Link>
-            <Link href="#">
-              <div className="flex items-center justify-center p-2 hover:bg-[#2D2945] rounded-full transition-all duration-300">
-                <FaInstagram className="text-[#B9B8C1] text-xl " />
-              </div>
-            </Link>
-          </div> */}
-          <div>
-            <Link
-              href="#"
-              className="hvr-bounce-to-left
-              
-              
-         
-              overflow-hidden flex items-center gap-2 hover:text-white  text-primary border-primary border font-semibold  rounded-md py-2 px-7 text-[16px]  uppercase"
-            >
-              Get a Quote
-            </Link>
-          </div>
-        </div>
       </div>
-      <MobileNav open={openNav} className="px-4">
+
+      <MobileNav open={openNav} className="">
         {navList}
       </MobileNav>
     </Navbar>

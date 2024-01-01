@@ -4,37 +4,30 @@ import Link from "next/link";
 import Hero_img from "../img/hero_img.png";
 import img_ani from "../img/animation_text.svg";
 import { FaArrowRight } from "react-icons/fa6";
-// import TypeAnimation from "react-type-animation";
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
-  const strings = ["hllo"];
+
 
   return (
     <section className=" min-h-[100vh] relative">
-      <div className="bg-[#22262A] overflow-hidden  relative banner-area w-full  py-20 lg:pt-40">
-        <div className="container mx-auto px-[5rem] ">
-          <div className="grid grid-cols-1   pt-[6rem] lg:grid-cols-3">
-            <div className="space-y-3 lg:col-span-2">
-              {/* <TypeAnimation
-                text={[
-                  "<h1>Hello</h1>",
-                  "<p>This is a paragraph.</p>",
-                  "<div><strong>Styled</strong> content.</div>",
-                  '<a href="#">Link</a>',
-                  // Add more JSX content as needed
+      <div className="bg-[#22262A] overflow-hidden  relative banner-area w-full  lg:py-20 lg:pt-40 pt-52">
+        <div className="container mx-auto lg:px-[5rem]  ">
+          <div className="grid grid-cols-1   lg:pt-[6rem] lg:grid-cols-3">
+            <div className=" lg:col-span-2">
+              <TypeAnimation
+                sequence={[
+                  "Set Your Business  With Innovative Idea",
+                  3000,
+                  "Set Your Business With Innovative Plan",
+                  3000,
+                  "Set Your Business With Innovative Gool",
                 ]}
-                speed={50} // Typing speed in milliseconds
-                cursorBlinkRate={500} // Cursor blink rate in milliseconds
-              /> */}
-
-              {/* <TypeAnimation
-                strings={strings}
-                className="text-3xl lg:text-[4.3rem] text-white font-bold leading-[45px] lg:leading-[100px] tracking-[1px]"
-                typeSpeed={50}
-                backSpeed={40}
-              /> */}
-
-              <p className="text-white  text-left text-sm xl:text-[1rem] lg:leading-[33px]  pr-[16rem]">
+                speed={10}
+                repeat={Infinity}
+                className="lg:text-7xl text-5xl font-bold text-white animate-pulse"
+              />{" "}
+              <p className="text-white mt-5  text-left text-[1rem] leading-[33px]  lg:pr-[16rem]">
                 Curabitur sed facilisis erat. Vestibulum pharetra eros eget
                 fringilla porttitor. oltorrent gongi Duis a orci nunc.
                 Suspendisse ac convallis sapien, quis commodo libero. Donec nec
@@ -60,6 +53,7 @@ function Hero() {
                 </Link>
               </div>
             </div>
+
             <div className="hidden lg:block">
               <div className=" flex ">
                 <div className="border border-[#027EEC] pr-4  rounded-[20rem] z-40 ">
@@ -74,7 +68,7 @@ function Hero() {
 
             {/* banner image */}
 
-            <div className="banerImage absolute top-[7.5rem] right-[15rem] ">
+            <div className="banerImage hidden lg:block absolute top-[7.5rem] right-[15rem] ">
               <Image
                 className="  rounded-[50%] w-[150px] h-[150px]   "
                 src={Hero_img}
@@ -85,16 +79,18 @@ function Hero() {
             </div>
           </div>
           <div className=" ">
-            <div className="flex items-center justify-between">
-              <div className="">
-                <Link href={"#"} className="">
-                  <div className="flex items-center gap-1">
-                    <p className=" uppercase text-white font-semibold ">
-                      scroll down
-                    </p>
-                    <FaArrowRight className="text-[#027EEC] rotate-[45deg] mt-1" />
-                  </div>
-                </Link>
+            <div className=" hidden lg:block">
+              <div className="flex items-center justify-between">
+                <div className="">
+                  <Link href={"#"} className="">
+                    <div className="flex items-center gap-1">
+                      <p className=" uppercase text-white font-semibold ">
+                        scroll down
+                      </p>
+                      <FaArrowRight className="text-[#027EEC] rotate-[45deg] mt-1" />
+                    </div>
+                  </Link>
+                </div>
               </div>
 
               <div className=" lg:absolute video-area pl-64 md:pl-[40rem] lg:pl-0 ">

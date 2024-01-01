@@ -29,10 +29,10 @@ function Learn() {
       <div className=" bg-secondery w-full py-20">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-2">
-          <p className=" uppercase text-white lg:px-20 lg:pt-5">
+          <p className=" uppercase text-primary lg:px-20 lg:pt-5">
               Our Software development
             </p>
-            <h2 className="text-[#02020af8] text-5xl font-bold leading-[55px] lg:px-28">
+            <h2 className="text-white text-5xl font-bold leading-[55px] lg:px-28">
               Process
             </h2>
             
