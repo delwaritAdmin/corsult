@@ -32,7 +32,7 @@ function Hero() {
               </p>
               <div className="pt-5 z-40">
                 <Link href={"#"} className="flex items-center">
-                  <div className=" z-30 animate-spining">
+                  <div className=" z-30">
                     <svg
                       width={60}
                       fill="#027EEC"
