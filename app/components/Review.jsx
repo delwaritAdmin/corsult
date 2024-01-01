@@ -12,7 +12,7 @@ import { FaStar } from "react-icons/fa6";
 function Review() {
   return (
     <section>
-      <div className="bg-[#02020af8] w-full py-20">
+      <div className="   bg-secondery w-full py-20">
         <div className="container mx-auto px-4">
           <h3 className="text-lg font-semibold text-[#3961f1] text-center">
             CLIENT EXPERIENCES
@@ -80,7 +80,7 @@ function Review() {
                   </div>
                   <div className="">
                     <h3 className="text-white font-semibold text-2xl">
-                    Luke Julian
+                      Luke Julian
                     </h3>
                     <h4 className="text-[#3961f1] text-lg tracking-tight">
                       CEO At atlantis.com
@@ -126,7 +126,7 @@ function Review() {
                   </div>
                   <div className="">
                     <h3 className="text-white font-semibold text-2xl">
-                    Elias Josiah
+                      Elias Josiah
                     </h3>
                     <h4 className="text-[#3961f1] text-lg tracking-tight">
                       CEO At atlantis.com
@@ -172,7 +172,7 @@ function Review() {
                   </div>
                   <div className="">
                     <h3 className="text-white font-semibold text-2xl">
-                    Colton Roman
+                      Colton Roman
                     </h3>
                     <h4 className="text-[#3961f1] text-lg tracking-tight">
                       CEO At atlantis.com
@@ -205,7 +205,6 @@ function Review() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>

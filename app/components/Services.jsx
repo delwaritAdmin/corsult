@@ -7,7 +7,7 @@ import { GoNorthStar } from "react-icons/go";
 function Services() {
   return (
     <section>
-      <div className="bg-[#02020af8] w-full py-20">
+      <div className=" bg-secondery w-full py-20">
         {/* <div className="pb-8 lg:pb-28 space-y-4 cursor-default lg:hidden ">
           <marquee direction="right">
             <div className="text-[#353539] flex gap-3">

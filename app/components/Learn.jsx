@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function Learn() {
   return (
-    <section>
+    <section className=" bg-third">
       <div className="background_img_2 py-20 w-full">
         <div className="conatiner mx-auto px-4">
           <div className="flex flex-col items-center justify-center gap-2">
@@ -26,7 +26,7 @@ function Learn() {
         </div>
       </div>
       {/* ================================ */}
-      <div className="bg-[#F2F2F2] w-full py-20">
+      <div className=" bg-third w-full py-20">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-2">
           <p className=" uppercase lg:px-20 lg:pt-5">
