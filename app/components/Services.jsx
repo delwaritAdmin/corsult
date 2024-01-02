@@ -102,7 +102,7 @@ function Services() {
               </p>
             </div>
             <div className=" grid grid-cols-1 gap-10 cursor-default">
-              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408c9] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -124,7 +124,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408c9] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -146,7 +146,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408c9] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -167,7 +167,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408c9] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -188,7 +188,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408c9] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
@@ -210,7 +210,7 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div className="bg-[#040408] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+              <div className="bg-[#040408c9] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
                 <div className="flex flex-col md:flex-row justify-center gap-5">
                   <div className="flex md:block">
                     <div className=" bg-[#7755FF] p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
