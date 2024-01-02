@@ -26,7 +26,7 @@ function Learn() {
         </div>
       </div>
       {/* ================================ */}
-      <div className=" bg-third w-full py-20">
+      <div className="  bg-white w-full py-20">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-2">
           <p className=" uppercase lg:px-20 lg:pt-5">
