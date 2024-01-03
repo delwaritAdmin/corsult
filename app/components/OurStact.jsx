@@ -11,6 +11,18 @@ import tailwind from "../img/Teach-Stack/tailwind-css-tech-icon.webp";
 import metrialui from "../img/Teach-Stack/material-ui-tech-icon.webp";
 import nextjs from "../img/Teach-Stack/next-js-tech-icon.webp";
 import FrontEnd from "../img/Teach-Stack/front-end-development.svg";
+import mobileApp from "../img/Teach-Stack/mobile-app-development.svg";
+import backend from "../img/Teach-Stack/backend-development.svg";
+
+import javaScript from "../img/Teach-Stack/java-script-tech-icon.webp";
+import nodejs from "../img/Teach-Stack/node-js.png";
+import socket from "../img/Teach-Stack/socket-io-tech-icon.webp";
+import redis from "../img/Teach-Stack/redis-tech-icon.webp";
+import mysql from "../img/Teach-Stack/mysql-tech-icon.webp";
+import mongodb from "../img/Teach-Stack/mongo-db-tech-icon.webp";
+import laravel from "../img/Teach-Stack/larvel-tech-icon.webp";
+import php from "../img/Teach-Stack/php-tech-icon.webp";
+import codeiginter from "../img/Teach-Stack/codeigniter-tech-icon.webp";
 
 export default function OurStact() {
   const [menu, setMenu] = useState(0);
@@ -50,18 +62,18 @@ export default function OurStact() {
                     menu === 1 ? "bg-primary " : ""
                   }  cursor-pointer rounded-sm   items-center space-x-6`}
                 >
-                  <span className="block">logo</span>
-                  <h4>Front End Development</h4>
+                  <Image src={backend} alt="front end development" />
+                  <h4>Back End Development</h4>
                 </li>
-                <li
+                {/* <li
                   onClick={() => setMenu(2)}
                   className={`shadow-md flex p-3   ${
                     menu === 2 ? "bg-primary " : ""
                   }  cursor-pointer rounded-sm   items-center space-x-6`}
                 >
-                  <span className="block">logo</span>
-                  <h4>Front End Development</h4>
-                </li>
+                  <Image src={mobileApp} alt="front end development" />
+                  <h4>Mobile App Development</h4>
+                </li> */}
               </ul>
             </div>
             {/* tech */}
@@ -109,6 +121,54 @@ export default function OurStact() {
                   <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
                     <Image src={metrialui} alt="icon" />
                     <p className="font-bold">MatrialUI</p>
+                  </div>
+                </div>
+              ) : (
+                ""
+              )}
+
+              {menu === 1 ? (
+                <div className=" transition-opacity duration-300 grid grid-cols-2 md:grid-cols-3 gap-5">
+                  {/* item */}
+                  <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
+                    <Image src={javaScript} alt="icon" />
+                    <p className="font-bold">JavaScript</p>
+                  </div>
+
+                  <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
+                    <Image src={nodejs} alt="icon" height={50} width={50} />
+                    <p className="font-bold">NodeJs</p>
+                  </div>
+                  <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
+                    <Image src={socket} alt="icon" />
+                    <p className="font-bold">Sokect.io</p>
+                  </div>
+                  <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
+                    <Image src={redis} alt="icon" />
+                    <p className="font-bold">Redis</p>
+                  </div>
+
+                  <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
+                    <Image src={mysql} alt="icon" />
+                    <p className="font-bold">My Sql</p>
+                  </div>
+                  <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
+                    <Image src={mongodb} alt="icon" />
+                    <p className="font-bold">Mongdb</p>
+                  </div>
+
+                  <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
+                    <Image src={laravel} alt="icon" />
+                    <p className="font-bold">Laravel</p>
+                  </div>
+
+                  <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
+                    <Image src={php} alt="icon" />
+                    <p className="font-bold">Php</p>
+                  </div>
+                  <div className=" p-4 border  space-y-2  border-gray-600  flex flex-col justify-center items-center ">
+                    <Image src={codeiginter} alt="icon" />
+                    <p className="font-bold">Codeiginter</p>
                   </div>
                 </div>
               ) : (

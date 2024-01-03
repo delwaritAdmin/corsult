@@ -34,8 +34,8 @@ export default function Home() {
       {/* <NewTechStack/> */}
       <Lifecycle />
 
-      <Recognized/>
-      <ContactWithUs/>
+      <Recognized />
+      <ContactWithUs />
       <WhyChooseUs />
       <Learn />
       {/* <Research/> */}
@@ -43,11 +43,7 @@ export default function Home() {
       <Review />
       <ContactUs />
       <Footers />
-      {/* get a free quote */}
-      <div className=" virtical animate-pulse  cursor-pointer  rounded-l-xl fixed right-0 top-[40%] -translate-y-[50%] z-50 bg-red-600 text-center md:px-2 py-8 md:py-12">
-        <p className=" text-white font-bold  rotate-180 ">Get Free Quote</p>
-      </div>
-      {/* get a free quote */}
+
       <FloatingWhatsApp darkMode="true" />
     </div>
   );
