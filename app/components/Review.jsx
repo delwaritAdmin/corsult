@@ -22,7 +22,7 @@ function Review() {
             <span className="text-[#3961f1]"> Satisfied </span> Customers.
           </h1>
           <div className="py-10 flex flex-col gap-10 lg:flex-row lg:gap-6 lg:flex-wrap lg:gap-y-0">
-            <div className="bg-[#030308ef] w-full p-10 rounded-xl lg:w-[55%] lg:mb-8">
+            <div className="bg-[#1B1F23] w-full p-10 rounded-xl lg:w-[55%] lg:mb-8">
               <div className="flex justify-between">
                 <div className="flex items-center gap-2">
                   <div>
@@ -68,7 +68,7 @@ function Review() {
               </div>
             </div>
 
-            <div className="bg-[#030308ef] w-full p-10 rounded-xl lg:w-[43%]">
+            <div className="bg-[#1B1F23] w-full p-10 rounded-xl lg:w-[43%]">
               <div className="flex justify-between">
                 <div className="flex items-center gap-2">
                   <div>
@@ -114,7 +114,7 @@ function Review() {
               </div>
             </div>
 
-            <div className="bg-[#030308ef] w-full p-10 rounded-xl lg:w-[43%]">
+            <div className="bg-[#1B1F23] w-full p-10 rounded-xl lg:w-[43%]">
               <div className="flex justify-between">
                 <div className="flex items-center gap-2">
                   <div>
@@ -160,7 +160,7 @@ function Review() {
               </div>
             </div>
 
-            <div className="bg-[#030308ef] w-full p-10 rounded-xl lg:w-[55%] lg:mt-8">
+            <div className="bg-[#1B1F23] w-full p-10 rounded-xl lg:w-[55%] lg:mt-8">
               <div className="flex justify-between">
                 <div className="flex items-center gap-2">
                   <div>

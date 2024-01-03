@@ -12,11 +12,10 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
-
 function Footers() {
   return (
     <section>
-      <div className="bg-[#000000f8] w-full pt-20 pb-10">
+      <div className=" bg-third w-full pt-20 pb-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-col  items-center gap-2 text-white">
             <h3 className="text-xl">Have a Project To Discuss?</h3>
@@ -309,94 +308,95 @@ function Footers() {
               </div>
             </div>
             <div className=" pt-8">
-            <div className="flex items-center gap-2 
-             border-[#353539] md:pb-3 md:pt-4">
-              <div className="">
-                <Link
-                  href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539]
+              <div
+                className="flex items-center gap-2 
+             border-[#353539] md:pb-3 md:pt-4"
+              >
+                <div className="">
+                  <Link
+                    href={"#"}
+                    className="flex items-center justify-center border-[1px] border-[#353539]
                    rounded-full p-3 hvr-bounce-to-left overflow-hidden transition-all duration-300"
-                >
-                  <FaDribbble className="text-white " />
-                </Link>
-              </div>
-              <div className="">
-                <Link
-                  href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539]
+                  >
+                    <FaDribbble className="text-white " />
+                  </Link>
+                </div>
+                <div className="">
+                  <Link
+                    href={"#"}
+                    className="flex items-center justify-center border-[1px] border-[#353539]
                    rounded-full p-3 hvr-bounce-to-left overflow-hidden transition-all duration-300"
-                >
-                  <FaBehance className="text-white " />
-                </Link>
-              </div>
-              <div className="">
-                <Link
-                  href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539]
+                  >
+                    <FaBehance className="text-white " />
+                  </Link>
+                </div>
+                <div className="">
+                  <Link
+                    href={"#"}
+                    className="flex items-center justify-center border-[1px] border-[#353539]
                    rounded-full p-3 hvr-bounce-to-left overflow-hidden transition-all duration-300"
-                >
-                  <FaFacebookF className="text-white " />
-                </Link>
-              </div>
-              <div className="">
-                <Link
-                  href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539]
+                  >
+                    <FaFacebookF className="text-white " />
+                  </Link>
+                </div>
+                <div className="">
+                  <Link
+                    href={"#"}
+                    className="flex items-center justify-center border-[1px] border-[#353539]
                    rounded-full p-3 hvr-bounce-to-left overflow-hidden transition-all duration-300"
-                >
-                  <FaTwitter className="text-white " />
-                </Link>
-              </div>
-              <div className="">
-                <Link
-                  href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539]
+                  >
+                    <FaTwitter className="text-white " />
+                  </Link>
+                </div>
+                <div className="">
+                  <Link
+                    href={"#"}
+                    className="flex items-center justify-center border-[1px] border-[#353539]
                    rounded-full p-3 hvr-bounce-to-left overflow-hidden transition-all duration-300"
-                >
-                  <FaInstagram className="text-white " />
-                </Link>
-              </div>
-              <div className="">
-                <Link
-                  href={"#"}
-                  className="flex items-center justify-center border-[1px] border-[#353539]
+                  >
+                    <FaInstagram className="text-white " />
+                  </Link>
+                </div>
+                <div className="">
+                  <Link
+                    href={"#"}
+                    className="flex items-center justify-center border-[1px] border-[#353539]
                    rounded-full p-3 hvr-bounce-to-left overflow-hidden transition-all duration-300"
-                >
-                  <FaLinkedinIn className="text-white " />
-                </Link>
+                  >
+                    <FaLinkedinIn className="text-white " />
+                  </Link>
+                </div>
               </div>
-            </div>
             </div>
           </div>
           <div className="pt-10 text-white flex flex-col gap-4 lg:flex-row lg:justify-between">
             <p>© Tekrevol 2023. All rights reserved</p>
-             <div className="flex gap-1 md:gap-2">
-             <Link
+            <div className="flex gap-1 md:gap-2">
+              <Link
+                href={"#"}
+                className="text-sm hover:text-[#0180EB] transition-all duration-200"
+              >
+                Terms and Conditions
+              </Link>
+              <div className="flex items-center gap-1 md:gap-2">
+                <p className=" cursor-default">|</p>
+                <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  Terms and Conditions
+                  Privacy Policy
                 </Link>
-                <div className="flex items-center gap-1 md:gap-2">
-                  <p className=" cursor-default">|</p>
-                  <Link
-                    href={"#"}
-                    className="text-sm hover:text-[#0180EB] transition-all duration-200"
-                  >
-                    Privacy Policy
-                  </Link>
-                </div>
-                <div className="flex items-center gap-1 md:gap-2">
-                  <p className=" cursor-default">|</p>
-                  <Link
-                    href={"#"}
-                    className="text-sm hover:text-[#0180EB] transition-all duration-200"
-                  >
-                    Contact Us
-                  </Link>
-                </div>
-
-             </div>
+              </div>
+              <div className="flex items-center gap-1 md:gap-2">
+                <p className=" cursor-default">|</p>
+                <Link
+                  href={"#"}
+                  className="text-sm hover:text-[#0180EB] transition-all duration-200"
+                >
+                  Contact Us
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

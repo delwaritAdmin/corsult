@@ -11,10 +11,13 @@
 }
 
 .hvr-bounce-to-right:before {
-  background-color: #232630 !important;
+  background-color: #14151b !important;
 }
 
 .hvr-underline-from-center:before {
+  background-color: #0180eb !important;
+}
+.hvr-wobble-skew:before {
   background-color: #0180eb !important;
 }
 
@@ -45,8 +48,14 @@ body {
 }
 
 .bg1 {
-  background-image: url(./img/bg.svg);
-  background-position: end;
+  background-image: url(./img/contact_bg.png);
+  background-position: start;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact_bg {
+  background-image:linear-gradient(to bottom, #22302807, #19412d1c), url(./img/contact_bg.png);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
