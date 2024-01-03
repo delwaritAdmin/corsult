@@ -14,7 +14,7 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 
 function Lifecycle() {
   return (
-    <section className="  bg-third py-8">
+    <section className="   bg-secondery py-8">
       <div className="bg-[] w-full py-16">
         <div className="container mx-auto  xpx-4">
           <h2 className="text-primary  font-semibold mb-4 text-3xl lg:text-4xl text-center">
