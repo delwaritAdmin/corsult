@@ -7,44 +7,36 @@ import { FaArrowRight } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
+  const [stateValue, setStateValue] = useState(false);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      // Change the state value
+      setStateValue(!stateValue);
+    }, 5000); // 20 seconds in milliseconds
+
+    // Cleanup the interval on component unmount
+    return () => clearInterval(intervalId);
+  }, [stateValue]); // useEffect depends on stateValue
+
   return (
-
-
-
-
-
-
-
-    
-
-
-
     <section className=" lg:min-h-[100vh]  relative">
       <div className="bg-[#22262A] overflow-hidden  relative banner-area w-full  lg:py-20 lg:pt-40 pt-52">
         <div className="container mx-auto lg:px-[5rem]  ">
           <div className="grid grid-cols-1   lg:pt-[6rem] lg:grid-cols-3">
-            <div className=" lg:col-span-2">
-             
-             
-
-             {
-
-
-              <h1
-                className="lg:text-7xl text-5xl 
-               lg:leading-[1.5]
-              leading-relaxed  font-bold text-white "
-              >
-                Set Your{" "}
-                <span className="  text-primary underline">Business</span>{" "}
-                <br /> With Innovative Plan
-              </h1>
-
-             }
-
-
-
-
+            <div className=" lg:col-span-2 transition-all duration-300">
+              {stateValue ? (
+                <h1 className="lg:text-7xl transition-all duration-300 text-5xl lg:leading-[1.5] leading-relaxed font-bold text-white">
+                  Set Your{" "}
+                  <span className="text-primary underline">Business</span>{" "}
+                  <br /> With Innovative Plan
+                </h1>
+              ) : (
+                <h1 className="lg:text-5xl transition-all duration-300 text-5xl lg:leading-[1.5] leading-relaxed font-bold text-white">
+                  Using the latest innovations in AI To Super charge
+                  <span className="text-primary"> your services</span>
+                </h1>
+              )}
               {/* <TypeAnimation
                 sequence={[
                   "Using the latest innovations in Ai To Super charge your services",

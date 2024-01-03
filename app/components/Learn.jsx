@@ -19,7 +19,7 @@ function Learn() {
           </div>
 
           <div className=" mt-16 grid pb-10 grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
-            <div className="space-y-2   rounded-[16px] shadow-md bg-[#17191D]  p-5">
+            <div className="space-y-2    rounded-sm shadow-md bg-[#17191D]  p-5">
               <h1 className="font-bold text-4xl   text-primary">01</h1>
 
               <h2 className=" text-white text-2xl font-semibold">
@@ -32,7 +32,7 @@ function Learn() {
               </p>
             </div>
 
-            <div className="space-y-2 rounded-[16px] shadow-md  bg-[#17191D] p-5">
+            <div className="space-y-2  rounded-sm shadow-md  bg-[#17191D] p-5">
               <h1 className="font-bold text-4xl  text-primary">02</h1>
               <h2 className="text-white text-2xl font-semibold">
                 Planning & Design
@@ -42,7 +42,7 @@ function Learn() {
                 architecture ,user interface, user experience.
               </p>
             </div>
-            <div className="space-y-2 rounded-[16px] shadow-md  bg-[#17191D] p-5">
+            <div className="space-y-2  rounded-sm shadow-md  bg-[#17191D] p-5">
               <h1 className="font-bold text-4xl  text-primary">03</h1>
               <h2 className="  text-white text-2xl font-semibold">
                 Development
@@ -52,7 +52,7 @@ function Learn() {
                 function samiessly.
               </p>
             </div>
-            <div className="space-y-2   rounded-[16px] shadow-md  bg-[#17191D] p-5">
+            <div className="space-y-2    rounded-sm shadow-md  bg-[#17191D] p-5">
               <h1 className="font-bold text-4xl  text-primary">04</h1>
               <h2 className=" text-white text-2xl font-semibold">Testing</h2>
               <p className=" text-sm text-white tracking-wide leading-6 pt-3">
@@ -60,7 +60,7 @@ function Learn() {
                 and reliability.
               </p>
             </div>
-            <div className="space-y-2    rounded-[16px] shadow-md  bg-[#17191D] p-5">
+            <div className="space-y-2     rounded-sm shadow-md  bg-[#17191D] p-5">
               <h1 className="font-bold text-4xl  text-primary">05</h1>
               <h2 className=" text-white text-2xl font-semibold">Deployment</h2>
               <p className=" text-sm text-white tracking-wide leading-6 pt-3">
@@ -68,7 +68,7 @@ function Learn() {
                 to end-users.
               </p>
             </div>
-            <div className="space-y-2 rounded-[16px] shadow-md  bg-[#17191D] p-5">
+            <div className="space-y-2  rounded-sm shadow-md  bg-[#17191D] p-5">
               <h1 className="font-bold text-4xl  text-primary">06</h1>
               <h2 className=" text-white text-2xl font-semibold">
                 Maintenance & support
