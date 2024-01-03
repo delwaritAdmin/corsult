@@ -10,6 +10,7 @@ import Research from "./components/Research";
 import Footers from "./components/Footers";
 import Review from "./components/Review";
 import Lifecycle from "./components/Lifecycle";
+import Recognized from "./components/Recognized";
 import States from "./components/States";
 import ContactUs from "./components/ContactUs";
 import TechStack from "./components/TechStack";
@@ -17,31 +18,37 @@ import Industries from "./components/Industries";
 import NewTechStack from "./components/NewTechStack";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import WhyChooseUs from "./components/WhyChooseUs";
-import Recognized from "./components/Recognized";
+import OurStact from "./components/OurStact";
 import ContactWithUs from "./components/ContactWithUs";
 
 export default function Home() {
   return (
-    <>
+    <div className=" relative">
       <Header />
       <Hero />
       <Services />
       <Industries />
+      <OurStact />
       {/* <Work/> */}
-      <TechStack />
+      {/* <TechStack /> */}
       {/* <NewTechStack/> */}
       <Lifecycle />
 
       <Recognized/>
-      <WhyChooseUs />
       <ContactWithUs/>
+      <WhyChooseUs />
       <Learn />
       {/* <Research/> */}
       {/* <States/> */}
       <Review />
       <ContactUs />
       <Footers />
+      {/* get a free quote */}
+      <div className=" virtical animate-pulse  cursor-pointer  rounded-l-xl fixed right-0 top-[40%] -translate-y-[50%] z-50 bg-red-600 text-center md:px-2 py-8 md:py-12">
+        <p className=" text-white font-bold  rotate-180 ">Get Free Quote</p>
+      </div>
+      {/* get a free quote */}
       <FloatingWhatsApp darkMode="true" />
-    </>
+    </div>
   );
 }

@@ -271,3 +271,8 @@ body {
     transform: translateX(-100%);
   }
 }
+
+
+.virtical{
+  writing-mode: vertical-rl;
+}

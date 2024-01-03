@@ -190,7 +190,7 @@ export default function Header() {
         </div>
 
         <Button
-          className="  hidden lg:block  transition-all duration-300 hover:bg-primary rounded-full  border px-6"
+          className="  hidden 2xl:block  transition-all duration-300 hover:bg-primary rounded-full  border px-6"
           variant="outline"
         >
           get a quate
