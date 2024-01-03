@@ -17,6 +17,8 @@ import Industries from "./components/Industries";
 import NewTechStack from "./components/NewTechStack";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import WhyChooseUs from "./components/WhyChooseUs";
+import Recognized from "./components/Recognized";
+import ContactWithUs from "./components/ContactWithUs";
 
 export default function Home() {
   return (
@@ -30,7 +32,9 @@ export default function Home() {
       {/* <NewTechStack/> */}
       <Lifecycle />
 
+      <Recognized/>
       <WhyChooseUs />
+      <ContactWithUs/>
       <Learn />
       {/* <Research/> */}
       {/* <States/> */}

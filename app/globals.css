@@ -81,6 +81,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.contact_backbround {
+  background-image: url(./img/contact_bg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .video-area {
   position: absolute;
@@ -171,6 +177,11 @@ body {
 
 .customShad {
   box-shadow: 0 16px 40px rgba(189, 205, 230, 0.25);
+}
+
+.buttonshadow:hover{
+  background: #047fee !important;
+  box-shadow: 2px 0px 18px #047fee;
 }
 
 /* =============Custom Code=========== */
