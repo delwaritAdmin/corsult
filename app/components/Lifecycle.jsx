@@ -14,11 +14,11 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 
 function Lifecycle() {
   return (
-    <section className=" bg-white py-6">
+    <section className="  bg-third py-8">
       <div className="bg-[] w-full py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto  xpx-4">
           <h2 className="text-primary  font-semibold mb-4 text-3xl lg:text-4xl text-center">
-            Development <span className="text-white"> Lifecycle</span>
+            Development  <span className="text-white"> Lifecycle</span>
           </h2>
           <div className="py-10 grid grid-cols-1 gap-12 md:grid-cols-5 md:gap-0 lg:gap-0">
             <div className="flex flex-col items-center  md:mt-5 ">
@@ -29,7 +29,7 @@ function Lifecycle() {
                 <Image
                   src={req_img}
                   alt="reuriremtnt"
-                  className="w-60 md:w-28 lg:w-44 md:-mt-10 md:ml-3 lg:-mt-[5rem] lg:ml-0"
+                  className="w-60 md:w-28 lg:w-28 md:-mt-10 md:ml-3 lg:-mt-[5rem] lg:ml-0"
                 />
                 <div className="pt-3 flex items-center justify-center gap-1">
                   <p className="text-white font-semibold hover:text-[#027EEC] transition-all duration-200">
@@ -50,7 +50,7 @@ function Lifecycle() {
                 <Image
                   src={plan_img}
                   alt="Planning"
-                  className="w-64 md:w-28 lg:w-44"
+                  className="w-64 md:w-28 lg:w-28"
                 />
               </div>
               <div className="hidden md:block">
@@ -69,7 +69,7 @@ function Lifecycle() {
                 <Image
                   src={proto_img}
                   alt="Prototying"
-                  className="w-60 md:w-28 lg:w-44 md:-mt-10 lg:-mt-[5rem]"
+                  className="w-60 md:w-28 lg:w-28 md:-mt-10 lg:-mt-[5rem]"
                 />
                 <div className="pt-3 flex items-center justify-center gap-1">
                   <p className="text-white font-semibold hover:text-[#027EEC] transition-all duration-200">
@@ -90,7 +90,7 @@ function Lifecycle() {
                 <Image
                   src={devel_img}
                   alt="Development"
-                  className="w-60 md:w-28 lg:w-44 md:ml-3 lg:ml-0"
+                  className="w-60 md:w-28 lg:w-28 md:ml-3 lg:ml-0"
                 />
               </div>
               <div className="hidden md:block">
@@ -109,7 +109,7 @@ function Lifecycle() {
                 <Image
                   src={release_img}
                   alt="Release"
-                  className="w-60 md:w-28 lg:w-44 md:-mt-10 lg:-mt-[5rem] "
+                  className="w-60 md:w-28 lg:w-28 md:-mt-10 lg:-mt-[5rem] "
                 />
                 <div className="pt-3 flex items-center justify-center gap-1">
                   <p className="text-white font-semibold hover:text-[#027EEC] transition-all duration-200">

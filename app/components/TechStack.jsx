@@ -34,55 +34,55 @@ import logo_30 from "../img/Teach-Stack/wpf.png";
 
 function TechStack() {
   return (
-    <section>
-      <div className="bg-[#F2F2F2] w-full py-16">
-        <div className="container mx-auto px-4">
-          <h3 className="text-[#0083E6] text-2xl text-center font-semibold">
-            Technology Expertise
+    <section className="   bg-third">
+      <div className=" w-full py-16">
+        <div className="">
+          <h3 className=" text-white pb-10 text-4xl  text-center font-semibold">
+            <span className=" text-primary">Technology</span> Expertise
           </h3>
 
           <div className="pt-10 w-full">
             <div className="marquee-container">
-              <div className="marquees flex items-center gap-5 md:gap-10 flex-wrap">
+              <div className="marquees flex items-center  gap md:gap-10 flex-wrap">
                 <div className="flex flex-col gap-4 items-center ">
-                  <Image src={logo_1} alt="logo" className="w-20" />
-                  <p>Angular</p>
+                  <Image src={logo_1} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Angular</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_2} alt="logo" className="w-20" />
-                  <p>Androied</p>
+                  <Image src={logo_2} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Androied</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_3} alt="logo" className="w-20" />
-                  <p>AWS</p>
+                  <Image src={logo_3} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">AWS</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_4} alt="logo" className="w-20" />
-                  <p>Azure</p>
+                  <Image src={logo_4} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Azure</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_5} alt="logo" className="w-20" />
-                  <p>firebase</p>
+                  <Image src={logo_5} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">firebase</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_6} alt="logo" className="w-20" />
-                  <p>flater</p>
+                  <Image src={logo_6} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">flater</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_7} alt="logo" className="w-20" />
-                  <p>Google Cloude</p>
+                  <Image src={logo_7} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Google Cloude</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_8} alt="logo" className="w-20" />
-                  <p>IBM</p>
+                  <Image src={logo_8} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">IBM</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_9} alt="logo" className="w-20" />
-                  <p>IOS</p>
+                  <Image src={logo_9} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">IOS</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_10} alt="logo" className="w-20" />
-                  <p>Jenkins</p>
+                  <Image src={logo_10} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Jenkins</p>
                 </div>
               </div>
             </div>
@@ -92,97 +92,50 @@ function TechStack() {
             <marquee direction="right">
               <div className="  flex items-center gap-5 flex-wrap md:gap-10">
               <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_11} alt="logo" className="w-20" />
-                  <p>Microsoft PWA</p>
+                  <Image src={logo_11} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Microsoft PWA</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_12} alt="logo" className="w-20" />
-                  <p>Mondo DB</p>
+                  <Image src={logo_12} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Mondo DB</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_13} alt="logo" className="w-20" />
-                  <p>MS-Sql-Server</p>
+                  <Image src={logo_13} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">MS-Sql-Server</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_14} alt="logo" className="w-20" />
-                  <p>My-SQL</p>
+                  <Image src={logo_14} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">My-SQL</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_15} alt="logo" className="w-20" />
-                  <p>NET</p>
+                  <Image src={logo_15} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">NET</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_16} alt="logo" className="w-20" />
-                  <p>Node</p>
+                  <Image src={logo_16} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Node</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_17} alt="logo" className="w-20" />
-                  <p>Oracel</p>
+                  <Image src={logo_17} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Oracel</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_18} alt="logo" className="w-20" />
-                  <p>Postgre-SQL</p>
+                  <Image src={logo_18} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Postgre-SQL</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_19} alt="logo" className="w-20" />
-                  <p>Power-BI</p>
+                  <Image src={logo_19} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Power-BI</p>
                 </div>
                 <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_20} alt="logo" className="w-20" />
-                  <p>Powerflow</p>
+                  <Image src={logo_20} alt="logo"  className=" h-13 w-13"  />
+                  <p className=" text-white">Powerflow</p>
                 </div>
               </div>
             </marquee>
           </div>
 
-          <div className="pt-4 w-full">
-            <marquee direction="left">
-              <div className="  flex items-center gap-5 flex-wrap md:gap-10">
-                <div className="flex flex-col gap-4 items-center">
-                  <div className="">
-                  <Image src={logo_21} alt="logo" className="w-20" />
-                  </div>
-                  <p>Python</p>
-                </div>
-                <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_22} alt="logo" className="w-20" />
-                  <p>React-Native</p>
-                </div>
-                <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_23} alt="logo" className="w-20" />
-                  <p>React</p>
-                </div>
-                <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_24} alt="logo" className="w-20" />
-                  <p>ROR</p>
-                </div>
-                <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_25} alt="logo" className="w-20" />
-                  <p>Salesforce</p>
-                </div>
-                <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_26} alt="logo" className="w-20" />
-                  <p>Sharepoint</p>
-                </div>
-                <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_27} alt="logo" className="w-20" />
-                  <p>Shopify</p>
-                </div>
-                <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_28} alt="logo" className="w-20" />
-                  <p>VUE</p>
-                </div>
-                <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_29} alt="logo" className="w-20" />
-                  <p>Wordpress</p>
-                </div>
-                <div className="flex flex-col gap-4 items-center">
-                  <Image src={logo_30} alt="logo" className="w-20" />
-                  <p>WPF</p>
-                </div>
-              </div>
-            </marquee>
-          </div>
+     
         </div>
       </div>
     </section>

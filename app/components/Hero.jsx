@@ -7,27 +7,55 @@ import { FaArrowRight } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
-
-
   return (
-    <section className=" min-h-[100vh] relative">
+
+
+
+
+
+
+
+    
+
+
+
+    <section className=" lg:min-h-[100vh]  relative">
       <div className="bg-[#22262A] overflow-hidden  relative banner-area w-full  lg:py-20 lg:pt-40 pt-52">
         <div className="container mx-auto lg:px-[5rem]  ">
           <div className="grid grid-cols-1   lg:pt-[6rem] lg:grid-cols-3">
             <div className=" lg:col-span-2">
-              <TypeAnimation
+             
+             
+
+             {
+
+
+              <h1
+                className="lg:text-7xl text-5xl 
+               lg:leading-[1.5]
+              leading-relaxed  font-bold text-white "
+              >
+                Set Your{" "}
+                <span className="  text-primary underline">Business</span>{" "}
+                <br /> With Innovative Plan
+              </h1>
+
+             }
+
+
+
+
+              {/* <TypeAnimation
                 sequence={[
-                  "Set Your Business  With Innovative Idea",
+                  "Using the latest innovations in Ai To Super charge your services",
                   3000,
                   "Set Your Business With Innovative Plan",
-                  3000,
-                  "Set Your Business With Innovative Gool",
                 ]}
                 speed={10}
                 repeat={Infinity}
                 className="lg:text-7xl text-5xl font-bold text-white animate-pulse"
-              />{" "}
-              <p className="text-white mt-5  text-left text-[1rem] leading-[33px]  lg:pr-[16rem]">
+              />{" "} */}
+              <p className="text-white mt-10  text-left text-[1rem] leading-[33px]  lg:pr-[16rem]">
                 Curabitur sed facilisis erat. Vestibulum pharetra eros eget
                 fringilla porttitor. oltorrent gongi Duis a orci nunc.
                 Suspendisse ac convallis sapien, quis commodo libero. Donec nec

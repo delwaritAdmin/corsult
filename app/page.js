@@ -15,6 +15,7 @@ import ContactUs from "./components/ContactUs"
 import TechStack from "./components/TechStack"
 import Industries from "./components/Industries"
 import NewTechStack from "./components/NewTechStack"
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 
 export default function Home() {
@@ -23,17 +24,18 @@ export default function Home() {
        <Header/>
        <Hero/>
        <Services/>
+       <Industries/>
        {/* <Work/> */}
-       {/* <TechStack/> */}
+       <TechStack/>
         {/* <NewTechStack/> */}
        <Lifecycle/>
+       <Learn/>
        {/* <Research/> */}
        {/* <States/> */}
        <Review/>
-       <Learn/>
-       <Industries/>
        <ContactUs/>
        <Footers/>
+       <FloatingWhatsApp darkMode="true"  />
     </>
   )
 }
