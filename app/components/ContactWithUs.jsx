@@ -27,10 +27,10 @@ function ContactWithUs() {
                         </div>
                     </div>
                   </div>
-                  <div className=" block md:hidden">
+                  <div className="pt-3 block md:hidden">
                     <h2 className="text-xl leading-tighter text-center">
                       Get Outstanding <br />{" "}
-                      <span className="text-4xl font-semibold text-primary">
+                      <span className="text-4xl font-bold text-primary">
                         Business Growth
                       </span>{" "}
                       <br />{" "}
