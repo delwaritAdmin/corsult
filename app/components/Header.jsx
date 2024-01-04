@@ -7,14 +7,15 @@ import {
   MenuItem,
   Navbar,
   MobileNav,
-  Typography,
   IconButton,
   Button,
+  Typography,
 } from "@material-tailwind/react";
 
 import Image from "next/image";
 import * as Scroll from "react-scroll";
-import { Link } from "react-scroll";
+
+import Link from "next/link";
 import logo from "../img/logo_corsult.png";
 import { BsTwitter, BsDiscord } from "react-icons/bs";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
@@ -51,96 +52,52 @@ export default function Header() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex  flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2">
-      <Typography
-        as="li"
-        variant="small"
-        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300   "
-      >
-        <a href="#" className="flex items-center text-sm">
+    <ul className="mb-4 mt-2 flex   space-x-10 flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2">
+      <li>
+        {" "}
+        <Link href="/" className="flex items-center text-sm">
           Home
-        </a>
-      </Typography>
-      {/* 
-      <Menu className=" z-50">
-        <MenuHandler>
-          <Link href="/webdevelopment" className=" block">
-            <Button className=" text-sm  capitalize    outline-none   shadow-none">
-              Services
-            </Button>
-          </Link>
-        </MenuHandler>
-        <MenuList className="z-50  text-left space-y-3 font-semibold">
-          <MenuItem className=" hover:outline-none border-none">
-            <Link href="/webdevelopment" className=" block">
-              Web Development
-            </Link>
-          </MenuItem>
-          <MenuItem className=" hover:outline-none border-none">
-            Mobile App Development
-          </MenuItem>
-        </MenuList>
-      </Menu> */}
+        </Link>
+      </li>
 
-      <Typography
-        as="a"
-        href="/webdevelopment"
-        variant="small"
-        color="blue-gray"
-        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
-      >
-        Services
-      </Typography>
-
-      <Typography
-        as="a"
-        variant="small"
-        color="blue-gray"
-        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
-      >
+      <li>
+        <Link href="/webdevelopment" className="flex items-center text-sm">
+          Service
+        </Link>
+      </li>
+      <li>
         <a href="#" className="flex items-center text-sm">
-          Product
+          Products
         </a>
-      </Typography>
+      </li>
 
-      <Typography
-        as="a"
-        variant="small"
-        color="blue-gray"
-        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
-      >
-        About
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
-      >
+      <li>
         <a href="#" className="flex items-center text-sm">
           Our Clients
         </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
-      >
+      </li>
+
+      <li>
         <a href="#" className="flex items-center text-sm">
           Careers
         </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
-      >
+      </li>
+      <li>
+        <Link href="/blog" className="flex items-center text-sm">
+          Blog
+        </Link>
+      </li>
+
+      <li>
+        <a href="#" className="flex items-center text-sm">
+          About
+        </a>
+      </li>
+      <li>
         <a href="#" className="flex items-center text-sm">
           Contact
         </a>
-      </Typography>
+      </li>
     </ul>
   );
 
@@ -155,8 +112,7 @@ export default function Header() {
       }`}
     >
       <div className="flex    lg:items-center   py-[.30rem]   mx-auto max-w-full  px-4 justify-between text-blue-gray-900">
-        <Typography
-          as="a"
+        <Link
           href="/"
           className=" cursor-pointer py-2 font-medium transition-all duration-200 "
         >
@@ -167,7 +123,7 @@ export default function Header() {
             alt="logo"
             className="w-32 md:w-[80%] lg:w-[70%]"
           />
-        </Typography>
+        </Link>
 
         {/* <div className="block lg:hidden">
           <div className="flex items-center gap-2 order-2 ">
