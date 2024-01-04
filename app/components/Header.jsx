@@ -137,6 +137,16 @@ export default function Header() {
         color="blue-gray"
         className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
+        <a href="./work" className="flex items-center text-sm">
+          Work
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
+      >
         <a href="#" className="flex items-center text-sm">
           Contact
         </a>
