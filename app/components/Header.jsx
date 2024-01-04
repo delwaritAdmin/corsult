@@ -1,5 +1,10 @@
 import React, { useState } from "react";
+
 import {
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
   Navbar,
   MobileNav,
   Typography,
@@ -56,20 +61,39 @@ export default function Header() {
           Home
         </a>
       </Typography>
+      {/* 
+      <Menu className=" z-50">
+        <MenuHandler>
+          <Link href="/webdevelopment" className=" block">
+            <Button className=" text-sm  capitalize    outline-none   shadow-none">
+              Services
+            </Button>
+          </Link>
+        </MenuHandler>
+        <MenuList className="z-50  text-left space-y-3 font-semibold">
+          <MenuItem className=" hover:outline-none border-none">
+            <Link href="/webdevelopment" className=" block">
+              Web Development
+            </Link>
+          </MenuItem>
+          <MenuItem className=" hover:outline-none border-none">
+            Mobile App Development
+          </MenuItem>
+        </MenuList>
+      </Menu> */}
 
       <Typography
-        as="li"
+        as="a"
+        href="/webdevelopment"
         variant="small"
         color="blue-gray"
         className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
-        <a href="#" className="flex items-center text-sm">
-          Services
-        </a>
+        Services
       </Typography>
 
       <Typography
-        as="li"
+        as="a"
         variant="small"
         color="blue-gray"
         className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
@@ -80,14 +104,12 @@ export default function Header() {
       </Typography>
 
       <Typography
-        as="li"
+        as="a"
         variant="small"
         color="blue-gray"
         className="py-2 px-5 font-medium hvr-underline-from-center transition-all duration-300 "
       >
-        <a href="#" className="flex items-center text-sm">
-          About
-        </a>
+        About
       </Typography>
       <Typography
         as="li"
