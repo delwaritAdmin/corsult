@@ -119,7 +119,7 @@ export default function Header() {
       <div className="flex    lg:items-center   py-[.30rem]   mx-auto max-w-full  px-4 justify-between text-blue-gray-900">
         <Link
           href="/"
-          className=" cursor-pointer py-2 font-medium transition-all duration-200 "
+          className=" cursor-pointer py-2 block font-medium transition-all duration-200 "
         >
           <Image
             src={logo}
@@ -160,7 +160,7 @@ export default function Header() {
 
           <IconButton
             variant="text"
-            className="  mt-8 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className="   text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
