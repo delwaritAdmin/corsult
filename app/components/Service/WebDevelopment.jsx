@@ -4,7 +4,15 @@ import Footers from "../Footers";
 import { Button } from "@material-tailwind/react";
 import web from "../../img/service/web.png";
 import Image from "next/image";
-
+import { IoIosArrowForward } from "react-icons/io";
+import { LuMessagesSquare } from "react-icons/lu";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+import { MdOutlineNoteAlt, MdOutlineDesignServices } from "react-icons/md";
+import { SiCivicrm } from "react-icons/si";
+import { FaPhotoVideo } from "react-icons/fa";
+import { FaNetworkWired } from "react-icons/fa6";
+import { FaWordpressSimple } from "react-icons/fa";
+import { MdOutlineAddShoppingCart } from "react-icons/md";
 export default function WebDevelopment() {
   return (
     <>
@@ -57,36 +65,39 @@ export default function WebDevelopment() {
                 </Button>
               </div>
 
-              <div className="lg:col-span-2  text-white flex-col md:flex-row  flex justify-between   rounded-xl items-center    bg-[#090A0D]    p-[4rem]">
+              <div className="lg:col-span-2  text-white flex-col md:flex-row  flex md:justify-between    rounded-xl     bg-[#090A0D]    p-[4rem]">
                 <div className=" space-y-10">
-                  <div className=" space-x-4">
-                    <span>logo</span>
-                    Design
+                  <div className=" space-x-2 flex   items-center">
+                    <MdOutlineDesignServices className=" text-4xl" />
+                    <p>Design</p>
                   </div>
-                  <div className=" space-x-4">
-                    <span>logo</span>
-                    Design
+                  <div className=" space-x-2 flex   items-center">
+                    <SiCivicrm className=" text-4xl" />
+                    <p>CRM</p>
                   </div>
-                  <div className=" space-x-4">
-                    <span>logo</span>
-                    Design
+                  <div className=" space-x-2 flex   items-center">
+                    <FaPhotoVideo className=" text-4xl" />
+                    <p>Video/Audio</p>
                   </div>
                 </div>
+
                 <div className=" space-y-10 mt-6 md:mt-0">
-                  <div className=" space-x-4">
-                    <span>logo</span>
-                    Design
+                  <div className=" space-x-2 flex   items-center">
+                    <MdOutlineAddShoppingCart className=" text-4xl" />
+                    <p>eCommerce</p>
                   </div>
-                  <div className=" space-x-4">
-                    <span>logo</span>
-                    Design
+                  <div className=" space-x-2 flex   items-center">
+                    <FaWordpressSimple className=" text-4xl" />
+                    <p>CMS</p>
                   </div>
-                  <div className=" space-x-4">
-                    <span>logo</span>
-                    Design
+                  <div className=" space-x-2 flex   items-center">
+                    <FaNetworkWired className=" text-4xl" />
+                    <p>Workflow Systems</p>
                   </div>
                 </div>
               </div>
+
+
             </div>
           </div>
         </section>
@@ -94,7 +105,7 @@ export default function WebDevelopment() {
       </section>
       {/* ======= end ====== */}
       {/* =======Getting Started====== */}
-      <section className=" pb-20 pt-[35rem] lg:pt-[18rem] bg-third">
+      <section className=" pb-20 pt-[55rem] lg:pt-[18rem] bg-third">
         <div className="  flex justify-center items-center ">
           <div className="   border-b-2 border-primary  w-[95%] "></div>
           <h1 className="   text-4xl text-white font-bold w-full text-center">
@@ -106,29 +117,41 @@ export default function WebDevelopment() {
         <div className="container mx-auto">
           <div>
             <div className=" text-white mt-8 flex flex-col lg:flex-row  items-center space-y-10 lg:space-y-0 lg:space-x-[8rem] justify-center">
-              <div className=" flex space-x-3">
-                <div>logo</div>
+              <div className=" flex space-x-6 items-center">
+                <div>
+                  <LuMessagesSquare className=" text-4xl" />
+                </div>
                 <div>
                   <p className=" text-primary">Step 1</p>
                   <p>Contact Us</p>
                 </div>
-                <div>Icon</div>
+                <div>
+                  <IoIosArrowForward className=" text-4xl  text-gray-300" />
+                </div>
               </div>
-              <div className=" flex space-x-3">
-                <div>logo</div>
+              <div className=" flex space-x-6 items-center">
+                <div>
+                  <LiaLaptopCodeSolid className=" text-4xl" />
+                </div>
                 <div>
                   <p className=" text-primary">Step 2</p>
                   <p>Contact Us</p>
                 </div>
-                <div>Icon</div>
+                <div>
+                  <IoIosArrowForward className=" text-4xl  text-gray-300" />
+                </div>
               </div>
-              <div className=" flex space-x-3">
-                <div>logo</div>
+              <div className=" flex space-x-6 items-center">
+                <div>
+                  <MdOutlineNoteAlt className=" text-4xl" />
+                </div>
                 <div>
                   <p className=" text-primary">Step 3</p>
                   <p>Contact Us</p>
                 </div>
-                <div>Icon</div>
+                <div>
+                  <IoIosArrowForward className=" text-4xl  text-gray-300" />
+                </div>
               </div>
             </div>
           </div>
