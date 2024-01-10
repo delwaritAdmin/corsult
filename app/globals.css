@@ -54,7 +54,8 @@ body {
   background-repeat: no-repeat;
 }
 .contact_bg {
-  background-image:linear-gradient(to bottom, #22302807, #19412d1c), url(./img/contact_bg.png);
+  background-image: linear-gradient(to bottom, #22302807, #19412d1c),
+    url(./img/contact_bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -179,7 +180,7 @@ body {
   box-shadow: 0 16px 40px rgba(189, 205, 230, 0.25);
 }
 
-.buttonshadow:hover{
+.buttonshadow:hover {
   background: #047fee !important;
   box-shadow: 2px 0px 18px #047fee;
 }
@@ -197,10 +198,26 @@ body {
   z-index: 1;
 }
 
+
+/* 
+.blog {
+  background-image: linear-gradient(#0077ff85, #0077ff85), url("../../blog.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+ 
+} */
+
+
+
+
+
 /* ========================= */
 .header-btn:hover::after {
   transform: skewX(45deg) scale(1, 1);
 }
+
 .header-btn::after {
   position: absolute;
   content: "";
@@ -255,8 +272,6 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-
-
 .marquee-text {
   display: inline-block;
   white-space: nowrap;
@@ -272,11 +287,9 @@ body {
   }
 }
 
-
-.virtical{
+.virtical {
   writing-mode: vertical-rl;
 }
-
 
 /* ======= Work hover ======= */
 
@@ -292,10 +305,10 @@ body {
   z-index: 0;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   border-radius: 60px;
   border: 1px solid #b8b8b8;
-  background: rgba(39,39,39,.5);
+  background: rgba(39, 39, 39, 0.5);
   backdrop-filter: blur(5px);
   height: 100px;
   width: 100px;

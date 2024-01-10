@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 
+
+
+
 import {
   Menu,
   MenuHandler,
@@ -11,6 +14,9 @@ import {
   Button,
   Typography,
 } from "@material-tailwind/react";
+
+
+
 
 import Image from "next/image";
 import * as Scroll from "react-scroll";
@@ -109,10 +115,10 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className={`header-area absolute top-0 z-50 
+      className={`header-area   top-0 z-50 
       
       
-      rounded-none bg-transparent border-none${
+      rounded-none bg-black border-none${
         sticy ? "   fixed  bg-black" : "  "
       }`}
     >

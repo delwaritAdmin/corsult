@@ -15,14 +15,15 @@ import blog_gallery_6 from "../../img/Blog-gallery-6.jpg";
 import blog_tags from "../../img/blog-tags.jpg";
 
 function Blog() {
+  
   return (
-    <section  className=" bg-secondery">
-      <div className="project_info_bg py-20 md:py-40 w-full">
+    <section className=" bg-secondery ">
+      <div className="blog w-full py-[6rem]">
         <div className="container mx-auto px-4">
-          <h1 className="text-center font-semibold text-gradient text-5xl md:text-6xl py-5">
+          <h1 className="text-center font-semibold  text-white   text-xl ">
             Blog
           </h1>
-          <div className="text-white flex gap-2 items-center justify-center">
+          <div className="text-white flex gap-2 text-sm items-center justify-center">
             <Link href={"#"} className=" font-semibold">
               Home
             </Link>
@@ -33,6 +34,7 @@ function Blog() {
           </div>
         </div>
       </div>
+
       {/* ====================================== */}
       <div className="bg-[#15171cfa] py-20 w-full md:pb-40 lg:pb-48">
         <div className="container mx-auto px-4">
