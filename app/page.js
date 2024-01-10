@@ -35,7 +35,7 @@ export default function Home() {
       <Lifecycle />
 
       <Recognized />
-      <ContactWithUs />
+      {/* <ContactWithUs /> */}
       <WhyChooseUs />
       <Learn />
       {/* <Research/> */}
