@@ -2,29 +2,25 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import icon from "../../img/AboutUs/icon.webp";
-import bg from "../../img/AboutUs/bg_image.webp";
+import bg from "../../img/AboutUs/bg_img.jpg";
 
 function AboutUs() {
   return (
     <section>
-      <div className="bg-[#F8F3E9] py-40 w-full">
+      <div className="bg-third py-20 w-full">
         <div className="container mx-auto">
-          <h1 className=" text-7xl md:text-8xl lg:text-9xl text-center font-semibold">
-            About <span className=" font-thin">us</span>
+          <h1 className=" text-white text-7xl md:text-8xl lg:text-9xl text-center font-semibold">
+            About <span className=" font-thin text-white">us</span>
           </h1>
         </div>
       </div>
       {/* =============== text section ================= */}
       <div className="bg-secondery w-full py-20 ">
         <div className="container mx-auto lg:px-[10rem]">
-          <h2 className=" text-4xl font-semibold text-primary leading-[50px] lg:leading-[60px] text-center lg:text-[2.6rem]">
+          <h2 className=" text-4xl font-semibold text-white leading-[50px] lg:leading-[60px] text-center lg:text-[2.6rem]">
             <span className="flex md:gap-4 items-center md:justify-center">
               <p>Filllo is a design startup agency</p>{" "}
-              <Image
-                src={icon}
-                alt="icons"
-                className="w-16 order-first md:order-2"
-              />
+            
               <p className="md:order-3 hidden lg:block"> that specialized</p>{" "}
             </span>{" "}
             in Product, UI/UX and Branding. We collaborate with startups and

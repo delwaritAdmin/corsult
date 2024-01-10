@@ -105,7 +105,7 @@ export default function Header() {
         </a>
       </li>
       <li>
-        <a href="#" className="flex items-center text-sm">
+        <a href="/contactUs" className="flex items-center text-sm">
           Contact
         </a>
       </li>

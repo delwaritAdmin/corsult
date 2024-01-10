@@ -8,6 +8,7 @@ import Innovate from '../components/AboutUs/Innovate'
 import Ourteam from '../components/AboutUs/Ourteam'
 import Clientfeedback from '../components/AboutUs/Clientfeedback'
 import Social from '../components/AboutUs/Social'
+import Agencyjournal from '../components/AboutUs/Agencyjournal'
 
 export default function page() {
   return (
@@ -18,6 +19,7 @@ export default function page() {
     <Innovate/>
     <Ourteam/>
     {/* <Clientfeedback/> */}
+    <Agencyjournal/>
     <Social/>
     <Footers/>
     </>

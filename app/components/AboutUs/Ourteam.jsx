@@ -1,7 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import team_img_1 from "../../img/AboutUs/team_member_1.png";
+import team_img_1 from "../../img/AboutUs/team_1.jpg";
+import team_img_2 from "../../img/AboutUs/team_2.jpg";
+import team_img_3 from "../../img/AboutUs/team_3.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper React components
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
@@ -34,14 +36,14 @@ function Ourteam() {
             </div>
             <div className=" relative">
               <Image
-                src={team_img_1}
+                src={team_img_2}
                 alt="Team-member-1"
                 className="w-full z-10"
               />
               <div className=" absolute left-0 top-auto bottom-0 right-0 pt-[24px] mx-0 bg-white text-center rounded-b-2xl">
                 <div className="mb-[8px] block">
                   <h3 className="text-[#333] text-[28px] font-semibold">
-                    Emon Hasan Khan
+                    Misuju 
                   </h3>
                 </div>
                 <div className="text-[16px] text-[#595855] pb-4 ">
@@ -51,14 +53,14 @@ function Ourteam() {
             </div>
             <div className=" relative">
               <Image
-                src={team_img_1}
+                src={team_img_3}
                 alt="Team-member-1"
                 className="w-full z-10"
               />
               <div className=" absolute left-0 top-auto bottom-0 right-0 pt-[24px] mx-0 bg-white text-center rounded-b-2xl">
                 <div className="mb-[8px] block">
                   <h3 className="text-[#333] text-[28px] font-semibold">
-                    Emon Hasan Khan
+                    Kelven
                   </h3>
                 </div>
                 <div className="text-[16px] text-[#595855] pb-4 ">

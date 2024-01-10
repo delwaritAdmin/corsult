@@ -15,7 +15,7 @@ function Clientfeedback() {
           </h2>
           <div className="pt-20">
             <Swiper
-              slidesPerView={1}
+              slidesPerView={2}
               spaceBetween={0}
               pagination={{
                 clickable: true,
@@ -38,23 +38,22 @@ function Clientfeedback() {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="hero_bg_2 py-20 w-full">
-                <div className="container mx-auto max-w-[1170px]">
+              <SwiperSlide className="py-20 w-full bg-white">
+                <div className="">
                   <div className="py-20 flex flex-col gap-2 lg:gap-3">
                     <h2 className="text-3xl font-bold lg:text-4xl lg:pb-2">
-                      Customize Your Design
+                      All Stationary Printings
                     </h2>
-                    <p className="text-xl font-semibold">
-                      Print your design as you like to see
-                    </p>
+                    <p className="text-xl font-semibold">For Professionals</p>
                     <div className="py-2">
                       <button className="uppercase text-white bg-primary py-1 px-5 tracking-[1px]">
-                        all products
+                        shop now
                       </button>
                     </div>
                   </div>
                 </div>
               </SwiperSlide>
+             
             </Swiper>
           </div>
         </div>
