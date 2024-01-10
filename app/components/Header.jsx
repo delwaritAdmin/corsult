@@ -72,7 +72,7 @@ export default function Header() {
         </Link>
       </li>
       <li>
-        <a href="#" className="flex items-center text-sm">
+        <a href="/product" className="flex items-center text-sm">
           Products
         </a>
       </li>

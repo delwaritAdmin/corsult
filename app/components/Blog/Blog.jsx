@@ -17,21 +17,12 @@ import blog_tags from "../../img/blog-tags.jpg";
 function Blog() {
   
   return (
-    <section className=" bg-secondery ">
-      <div className="blog w-full py-[6rem]">
-        <div className="container mx-auto px-4">
-          <h1 className="text-center font-semibold  text-white   text-xl ">
-            Blog
+    <section className="">
+      <div className="bg-third py-20 lg:py-40 w-full">
+        <div className="container mx-auto">
+          <h1 className=" text-white text-7xl md:text-8xl lg:text-9xl text-center font-semibold">
+            Blogs
           </h1>
-          <div className="text-white flex gap-2 text-sm items-center justify-center">
-            <Link href={"#"} className=" font-semibold">
-              Home
-            </Link>
-            <p className="text-gray-500 cursor-default">/</p>
-            <Link href={"#"} className=" font-semibold">
-              Blog
-            </Link>
-          </div>
         </div>
       </div>
 
