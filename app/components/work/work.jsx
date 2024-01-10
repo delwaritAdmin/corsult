@@ -26,7 +26,13 @@ function work() {
               {/* cart 1 start */}
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
-                  <Image src={work_img_1} alt="image" className="" />
+                  <div className=" relative overflow-hidden bg-cover">
+                    <Image
+                      src={work_img_1}
+                      alt="image"
+                      className=" bg-cover bg-no-repeat ease-in-out hover:scale-105 transition-all duration-300"
+                    />
+                  </div>
                   <span className="dm-case-button ">Explore</span>
                 </Link>
                 <Link
@@ -49,7 +55,13 @@ function work() {
               {/* cart 2 start */}
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
-                  <Image src={work_img_2} alt="image" className="" />
+                  <div className=" relative overflow-hidden bg-cover">
+                    <Image
+                      src={work_img_2}
+                      alt="image"
+                      className=" bg-cover bg-no-repeat ease-in-out hover:scale-105 transition-all duration-300"
+                    />
+                  </div>
                   <span className="dm-case-button ">Explore</span>
                 </Link>
                 <Link
@@ -72,7 +84,13 @@ function work() {
               {/* cart 3 start */}
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
-                  <Image src={work_img_3} alt="image" className="" />
+                  <div className=" relative overflow-hidden bg-cover">
+                    <Image
+                      src={work_img_3}
+                      alt="image"
+                      className=" bg-cover bg-no-repeat ease-in-out hover:scale-105 transition-all duration-300"
+                    />
+                  </div>
                   <span className="dm-case-button ">Explore</span>
                 </Link>
                 <Link
@@ -98,7 +116,13 @@ function work() {
               {/* cart 4 start */}
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
-                  <Image src={work_img_4} alt="image" className="" />
+                  <div className=" relative overflow-hidden bg-cover">
+                    <Image
+                      src={work_img_4}
+                      alt="image"
+                      className=" bg-cover bg-no-repeat ease-in-out hover:scale-105 transition-all duration-300"
+                    />
+                  </div>
                   <span className="dm-case-button ">Explore</span>
                 </Link>
                 <Link
@@ -127,7 +151,13 @@ function work() {
               {/* cart 5 start */}
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
-                  <Image src={work_img_5} alt="image" className="" />
+                  <div className=" relative overflow-hidden bg-cover">
+                    <Image
+                      src={work_img_5}
+                      alt="image"
+                      className=" bg-cover bg-no-repeat ease-in-out hover:scale-105 transition-all duration-300"
+                    />
+                  </div>
                   <span className="dm-case-button ">Explore</span>
                 </Link>
                 <Link
@@ -150,7 +180,13 @@ function work() {
               {/* cart 6 start */}
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
-                  <Image src={work_img_6} alt="image" className="" />
+                  <div className=" relative overflow-hidden bg-cover">
+                    <Image
+                      src={work_img_6}
+                      alt="image"
+                      className=" bg-cover bg-no-repeat ease-in-out hover:scale-105 transition-all duration-300"
+                    />
+                  </div>
                   <span className="dm-case-button ">Explore</span>
                 </Link>
                 <Link
@@ -173,7 +209,13 @@ function work() {
               {/* cart 7 start */}
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
-                  <Image src={work_img_7} alt="image" className="" />
+                  <div className=" relative overflow-hidden bg-cover">
+                    <Image
+                      src={work_img_7}
+                      alt="image"
+                      className=" bg-cover bg-no-repeat ease-in-out hover:scale-105 transition-all duration-300"
+                    />
+                  </div>
                   <span className="dm-case-button ">Explore</span>
                 </Link>
                 <Link
