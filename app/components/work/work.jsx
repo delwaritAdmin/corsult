@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Profiler } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import work_img_1 from "../../img/work/work_img_1.webp";
@@ -8,6 +8,10 @@ import work_img_4 from "../../img/work/work_img_4.webp";
 import work_img_5 from "../../img/work/work_img_5.webp";
 import work_img_6 from "../../img/work/work_img_6.webp";
 import work_img_7 from "../../img/work/work_img_7.webp";
+import calltoaction from "../../img/call-to-action.svg";
+import profile from "../../img/work/profile.webp";
+import { FaWhatsapp } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 function work() {
   return (
@@ -15,7 +19,7 @@ function work() {
       <div className="bg-secondery w-full py-20 pt-40 ">
         <div className="container mx-auto ">
           <div className="text-center space-y-1 lg:space-y-2">
-            <h4 className="text-lg text-primary lg:text-lg">Case Studies</h4>
+            <h4 className="text-lg text-primary lg:text-lg">Our Works</h4>
             <h2 className="text-4xl font-semibold text-white lg:text-5xl lg:px-[20rem]">
               Browse our solutions across industries
             </h2>
@@ -236,6 +240,49 @@ function work() {
                   <p className=" bg-third rounded-full py-[2px] px-3 text-sm text-primary">
                     Ecommerce
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="pt-20 grid gap-10 lg:grid-cols-3">
+            <div className=" bg-third w-full py-10 rounded-3xl px-8 lg:col-span-2">
+              <div className="grid gap-10 md:grid-cols-2">
+                <div className="flex justify-center md:order-last">
+                  <Image
+                    src={calltoaction}
+                    alt="call to action "
+                    className="w-96"
+                  />
+                </div>
+                <div className="space-y-1">
+                  <h3 className=" text-primary font-semibold text-2xl md:text-3xl mb-[15px]">
+                    Got a project in mind?
+                  </h3>
+                  <h1 className="text-3xl lg:text-6xl md:text-5xl  mb-[16px] font-bold  text-white md:leading-[55px]">
+                    Let&rsquo;s discuss the details
+                  </h1>
+                  <div className="pt-8 md:pt-16">
+                    <button className="font-semibold text-white text-xl py-4 px-10 rounded-full bg-primary hover:text-black hover:bg-white transition-all duration-300">
+                      Schdule a Call
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-primary w-full py-10 rounded-3xl px-8">
+              <div className="flex flex-col gap-5">
+                <div>
+                  <Image src={profile} alt="profile" className="w-28" />
+                </div>
+                <h3 className="text-white font-semibold text-xl md:text-3xl lg:text-2xl">
+                  My name is Noman, Design Manager at Design Monks. I will
+                  answer all your questions.
+                </h3>
+                <div className="pt-5">
+                  <button className="font-semibold hover:text-white text-xl py-4 px-10 rounded-full hover:bg-black text-black bg-white transition-all duration-300 flex items-center gap-3">
+                    <p>Ask Question</p>
+                    <IoLogoWhatsapp className="text-green-500 text-[1.6rem]" />
+                  </button>
                 </div>
               </div>
             </div>

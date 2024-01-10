@@ -83,11 +83,11 @@ export default function Header() {
         </a>
       </li> */}
 
-      <li>
+      {/* <li>
         <a href="#" className="flex items-center text-sm">
           Careers
         </a>
-      </li>
+      </li> */}
       <li>
         <Link href="./work" className="flex items-center text-sm">
           Work
@@ -100,7 +100,7 @@ export default function Header() {
       </li>
 
       <li>
-        <a href="#" className="flex items-center text-sm">
+        <a href="/aboutUs" className="flex items-center text-sm">
           About
         </a>
       </li>

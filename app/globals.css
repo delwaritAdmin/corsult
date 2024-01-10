@@ -12,10 +12,13 @@
 
 .hvr-bounce-to-right:before {
   background-color: #14151b !important;
+  
 }
 
-.hvr-underline-from-center:before {
+.hvr-underline-from-left:before {
   background-color: #0180eb !important;
+  border: 1px solid;
+  height: 1px;
 }
 .hvr-wobble-skew:before {
   background-color: #0180eb !important;
@@ -208,6 +211,13 @@ body {
 
  
 } */
+
+.team_backbround_1 {
+  background-image: url(./img/AboutUs/team_member_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
