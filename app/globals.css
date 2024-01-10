@@ -12,10 +12,13 @@
 
 .hvr-bounce-to-right:before {
   background-color: #14151b !important;
+  
 }
 
-.hvr-underline-from-center:before {
+.hvr-underline-from-left:before {
   background-color: #0180eb !important;
+  border: 1px solid;
+  height: 1px;
 }
 .hvr-wobble-skew:before {
   background-color: #0180eb !important;
@@ -208,6 +211,7 @@ body {
 
  
 } */
+
 
 
 

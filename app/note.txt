@@ -37,3 +37,12 @@ for hero section
 ================
 
 https://preview.themeforest.net/item/alquran-islamic-institute-mosque-html-template/full_screen_preview/49236536?_ga=2.173475363.1082515078.1703257380-1350845274.1703257380
+
+_____________________________
+Customization ----
+
+carear button remove 
+contact us section 
+project section 
+word section case studies name change "our work"
+about 
