@@ -27,12 +27,13 @@ export default function Home() {
       <Header />
       <Hero />
       <Services />
-      <Industries />
-      <OurStact />
+      {/* <Industries /> */}
       <Work/>
+      <OurStact />
+      
       {/* <TechStack /> */}
       {/* <NewTechStack/> */}
-      <Lifecycle />
+      {/* <Lifecycle /> */}
 
       <Recognized />
       <ContactWithUs />

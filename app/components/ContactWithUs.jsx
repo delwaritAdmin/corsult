@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { RxCross2 } from "react-icons/rx";
 
 function ContactWithUs() {
-  const [modal, setModal] = useState(true);
+  const [modal, setModal] = useState(false);
 
   useEffect(() => {
     const intervalId = setInterval(() => {

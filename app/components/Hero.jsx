@@ -9,30 +9,30 @@ import { TypeAnimation } from "react-type-animation";
 function Hero() {
   const [stateValue, setStateValue] = useState(false);
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      // Change the state value
-      setStateValue(!stateValue);
-    }, 5000); // 20 seconds in milliseconds
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     // Change the state value
+  //     setStateValue(!stateValue);
+  //   }, 5000); // 20 seconds in milliseconds
 
-    // Cleanup the interval on component unmount
-    return () => clearInterval(intervalId);
-  }, [stateValue]); // useEffect depends on stateValue
+  //   // Cleanup the interval on component unmount
+  //   return () => clearInterval(intervalId);
+  // }, [stateValue]); // useEffect depends on stateValue
 
   return (
     <section className=" lg:min-h-[100vh]  relative">
       <div className="bg-[#22262A] overflow-hidden  relative banner-area w-full  lg:py-20 lg:pt-40 pt-52">
-        <div className="container mx-auto lg:px-[5rem]  ">
+        <div className="container  w-full block">
           <div className="grid grid-cols-1   lg:pt-[6rem] lg:grid-cols-3">
-            <div className=" lg:col-span-2 transition-all duration-300">
+            <div className=" lg:col-span-2">  {/*transition-all duration-300*/}
               {stateValue ? (
-                <h1 className="lg:text-7xl transition-all duration-300 text-5xl lg:leading-[1.5] leading-relaxed font-bold text-white">
+                <h1 className="lg:text-7xl text-5xl lg:leading-[1.5] leading-relaxed font-bold text-white">
                   Set Your{" "}
                   <span className="text-primary underline">Business</span>{" "}
                   <br /> With Innovative Plan
                 </h1>
               ) : (
-                <h1 className="lg:text-5xl transition-all duration-300 text-5xl lg:leading-[1.5] leading-relaxed font-bold text-white">
+                <h1 className="lg:text-5xl  text-5xl lg:leading-[1.5] leading-relaxed font-bold text-white">
                   Using the latest innovations in AI To Super charge
                   <span className="text-primary"> your services</span>
                 </h1>
@@ -47,12 +47,12 @@ function Hero() {
                 repeat={Infinity}
                 className="lg:text-7xl text-5xl font-bold text-white animate-pulse"
               />{" "} */}
-              <p className="text-white mt-10  text-left text-[1rem] leading-[33px]  lg:pr-[16rem]">
+              {/* <p className="text-white mt-10  text-left text-[1rem] leading-[33px]  lg:pr-[16rem]">
                 Curabitur sed facilisis erat. Vestibulum pharetra eros eget
                 fringilla porttitor. oltorrent gongi Duis a orci nunc.
                 Suspendisse ac convallis sapien, quis commodo libero. Donec nec
                 duomoi luctus, pellentesque lacus sed, mollis going leo.
-              </p>
+              </p> */}
               <div className="pt-8 z-40">
                 <Link href={"#"} className="flex items-center">
                   <div className=" z-30  ">
