@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-
-
-
-
 import {
   Menu,
   MenuHandler,
@@ -14,19 +10,16 @@ import {
   Button,
   Typography,
 } from "@material-tailwind/react";
-
-
-
-
 import Image from "next/image";
 import * as Scroll from "react-scroll";
-
 import Link from "next/link";
 import logo from "../img/logo_corsult.png";
 import { BsTwitter, BsDiscord } from "react-icons/bs";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+
+
 
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -58,10 +51,9 @@ export default function Header() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex   space-x-10 flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2">
+    <ul className="mb-4 mt-2 flex space-x-10 flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-2">
       <li>
-        {" "}
-        <Link href="/" className="flex items-center text-sm">
+        <Link href="/" className=" ml-10 lg:ml-0 flex items-center text-sm">
           Home
         </Link>
       </li>
@@ -98,6 +90,11 @@ export default function Header() {
           Blog
         </Link>
       </li>
+      <li>
+        <Link href="/innovate" className="flex items-center text-sm">
+          Innovate
+        </Link>
+      </li>
 
       <li>
         <a href="/aboutUs" className="flex items-center text-sm">
@@ -115,14 +112,14 @@ export default function Header() {
   return (
     <Navbar
       id="header"
-      className={`header-area   top-0 z-50 
+      className={`header-area  top-0 z-50 
       
       
       rounded-none bg-black border-none${
         sticy ? "   fixed  bg-black" : "  "
       }`}
     >
-      <div className="flex    lg:items-center   py-[.30rem]   mx-auto max-w-full  px-4 justify-between text-blue-gray-900">
+      <div className="flex lg:items-center   py-[.30rem]   mx-auto max-w-full  px-4 justify-between text-blue-gray-900">
         <Link
           href="/"
           className=" cursor-pointer py-2 block font-medium transition-all duration-200 "
@@ -186,7 +183,7 @@ export default function Header() {
         </Button>
       </div>
 
-      <MobileNav open={openNav}>{navList}</MobileNav>
+      <MobileNav open={openNav} >{navList}</MobileNav>
     </Navbar>
   );
 }

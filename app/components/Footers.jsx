@@ -186,7 +186,7 @@ function Footers() {
             <div className=" text-white">
               <h2 className="text-xl font-bold lg:text-2xl">Locations</h2>
               <div className=" flex space-x-5 mt-5">
-                <Link
+                {/* <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
@@ -197,7 +197,7 @@ function Footers() {
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
                   NGA
-                </Link>
+                </Link> */}
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
