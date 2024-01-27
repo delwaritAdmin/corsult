@@ -104,8 +104,46 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-.contact_backbround {
-  background-image: url(./img/contact_bg.webp);
+
+
+.showcase_backbround_1 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/ui_ux.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_2 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/html.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_3 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/wordpress.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_4 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/php.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_5 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/react.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_6 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/EG.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

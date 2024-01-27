@@ -20,7 +20,7 @@ export default function page() {
     <Ourteam/>
     {/* <Clientfeedback/> */}
     <Agencyjournal/>
-    <Social/>
+    {/* <Social/> */}
     <Footers/>
     </>
   )
