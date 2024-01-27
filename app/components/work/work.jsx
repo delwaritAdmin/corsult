@@ -16,10 +16,17 @@ import { IoLogoWhatsapp } from "react-icons/io";
 function work() {
   return (
     <section>
-      <div className="bg-secondery w-full py-20 pt-40 ">
+      <div className="bg-third py-20 lg:py-40 w-full">
+        <div className="container mx-auto">
+          <h1 className=" text-white text-7xl md:text-8xl lg:text-9xl text-center font-semibold">
+            Our <span className=" font-thin text-white">Works</span>
+          </h1>
+        </div>
+      </div>
+      {/* =============================== */}
+      <div className="bg-secondery w-full py-20 ">
         <div className="container mx-auto ">
-          <div className="text-center space-y-1 lg:space-y-2">
-            <h4 className="text-lg text-primary lg:text-lg">Our Works</h4>
+          <div className="text-center">
             <h2 className="text-4xl font-semibold text-white lg:text-5xl lg:px-[20rem]">
               Browse our solutions across industries
             </h2>
