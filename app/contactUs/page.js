@@ -11,8 +11,8 @@ export default function page() {
     <>
     <Header/>
     <Contactus2/>
-    <Agencyjournal/>
-    <Social/>
+    {/* <Agencyjournal/>
+    <Social/> */}
     <Footers/>
     </>
   )

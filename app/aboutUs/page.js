@@ -15,12 +15,12 @@ export default function page() {
     <>
     <Header/>
     <AboutUs/>
-    <Ourproject/>
+    {/* <Ourproject/>
     <Innovate/>
-    <Ourteam/>
+    <Ourteam/> */}
     {/* <Clientfeedback/> */}
-    <Agencyjournal/>
-    <Social/>
+    {/* <Agencyjournal/>
+    <Social/> */}
     <Footers/>
     </>
   )
