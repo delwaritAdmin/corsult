@@ -104,8 +104,46 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-.contact_backbround {
-  background-image: url(./img/contact_bg.webp);
+
+
+.showcase_backbround_1 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/ui_ux.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_2 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/html.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_3 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/wordpress.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_4 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/php.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_5 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/react.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.showcase_backbround_6 {
+  background-image:linear-gradient(to bottom, #222430d3, #222430c4),
+    url(./img/Showcase/EG.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -340,4 +378,43 @@ body {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
+}
+
+/* ========= contact page ======  */
+
+.section-title-1 {
+  position: relative;
+  height: 90px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.section-title-1 span {
+  font-weight: 700;
+  font-size: 110px;
+  letter-spacing: .01em;
+  text-transform: uppercase;
+  color: rgba(6,216,137,.03);
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  line-height: 1;
+}
+.section-title-1 h2 {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: .01em;
+  color: white;
+}
+
+.contact_bg_1 {
+  background-image: url(./img/work/contact_bg.png),linear-gradient(#161a1e,#161a1e);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 10px;
 }

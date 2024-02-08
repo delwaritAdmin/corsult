@@ -23,7 +23,7 @@ function ContactUs() {
            
             <div className="flex justify-center -mt-16 md:-mt-24 lg:-mt-28 ">
               <Link
-                href={"#"}
+                href={"/contactUs"}
                 className="contact_bg overflow-hidden flex gap-0 items-center text-white  transition-all duration-500 border-[1px] border-[#7e7e7e] rounded-full  p-10 text-3xl  h-[16rem] w-[16rem] lg:h-[18rem] lg:w-[18rem]  "
               >
                 <p className=" text-md">Contact With Us.</p>

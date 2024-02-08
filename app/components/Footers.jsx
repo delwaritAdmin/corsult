@@ -104,43 +104,37 @@ function Footers() {
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  Automotive App Development
+                  EVV for Homecare
                 </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  Healthcare App Development
+                 Time & Attendance
                 </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  On-Demand App Development
+                  Billing Management
                 </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  Ecommerce App Development
+                  CarePortal
                 </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  Real Estate App Development
+                  Employee and HR management
                 </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  Music App Development
-                </Link>
-                <Link
-                  href={"#"}
-                  className="text-sm hover:text-[#0180EB] transition-all duration-200"
-                >
-                  IT Staff Augmentation
+                  Homecare Admission packet
                 </Link>
               </div>
             </div>
@@ -186,18 +180,18 @@ function Footers() {
             <div className=" text-white">
               <h2 className="text-xl font-bold lg:text-2xl">Locations</h2>
               <div className=" flex space-x-5 mt-5">
-                {/* <Link
+                <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  NYC
+                 USA
                 </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  NGA
-                </Link> */}
+                  CN
+                </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"

@@ -49,3 +49,23 @@ contact us section
 project section 
 word section case studies name change "our work"
 about 
+
+
+======================================
+
+
+ Solution --
+ EVV for Homecare
+ Time & Attendance
+ Billing Management
+ CarePortal
+ Employee and HR management
+ Homecare Admission packet
+
+
+
+product theke social section remove 
+about theke social section remove 
+innovate color change
+contact link add 
+solution option add 
