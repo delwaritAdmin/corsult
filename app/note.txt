@@ -1,6 +1,5 @@
 &rsquo;
 
-Corsult --- Customization
 =========================
 
 remove social logos from the top bar and place a cat button on in.
