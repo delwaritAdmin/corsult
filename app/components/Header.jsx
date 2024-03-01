@@ -13,13 +13,11 @@ import {
 import Image from "next/image";
 import * as Scroll from "react-scroll";
 import Link from "next/link";
-import logo from "../img/logo_corsult.png";
+import logo from "../img/Logo_Img.png";
 import { BsTwitter, BsDiscord } from "react-icons/bs";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
-
-
 
 export default function Header() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -63,11 +61,11 @@ export default function Header() {
           Service
         </Link>
       </li>
-      <li>
+      {/* <li>
         <a href="/product" className="flex items-center text-sm">
           Products
         </a>
-      </li>
+      </li> */}
 
       {/* <li>
         <a href="#" className="flex items-center text-sm">
@@ -90,11 +88,11 @@ export default function Header() {
           Blog
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/innovate" className="flex items-center text-sm">
           Innovate
         </Link>
-      </li>
+      </li> */}
 
       <li>
         <a href="/aboutUs" className="flex items-center text-sm">
@@ -115,9 +113,7 @@ export default function Header() {
       className={`header-area  top-0 z-50 
       
       
-      rounded-none bg-black border-none${
-        sticy ? "   fixed  bg-black" : "  "
-      }`}
+      rounded-none bg-black border-none${sticy ? "   fixed  bg-black" : "  "}`}
     >
       <div className="flex lg:items-center   py-[.30rem]   mx-auto max-w-full  px-4 justify-between text-blue-gray-900">
         <Link
@@ -183,7 +179,7 @@ export default function Header() {
         </Button>
       </div>
 
-      <MobileNav open={openNav} >{navList}</MobileNav>
+      <MobileNav open={openNav}>{navList}</MobileNav>
     </Navbar>
   );
 }

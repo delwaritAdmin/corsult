@@ -18,13 +18,13 @@ function work() {
     <section>
       <div className="bg-third py-20 lg:py-40 w-full">
         <div className="container mx-auto">
-          <h1 className=" text-white text-7xl md:text-8xl lg:text-9xl text-center font-semibold">
-            Our <span className=" font-thin text-white">Works</span>
+          <h1 className=" text-white text-5xl text-center font-semibold">
+           Comming Soon....!
           </h1>
         </div>
       </div>
       {/* =============================== */}
-      <div className="bg-secondery w-full py-20 ">
+      {/* <div className="bg-secondery w-full py-20 ">
         <div className="container mx-auto ">
           <div className="text-center">
             <h2 className="text-4xl font-semibold text-white lg:text-5xl lg:px-[20rem]">
@@ -32,9 +32,13 @@ function work() {
             </h2>
           </div>
           <div className="pt-10 grid gap-4 lg:grid-cols-2 lg:items-center lg:gap-10">
-            {/* grid first section start  */}
+
+
+         
+         
             <div className="grid gap-8">
-              {/* cart 1 start */}
+            
+            
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
                   <div className=" relative overflow-hidden bg-cover">
@@ -63,7 +67,7 @@ function work() {
                   </p>
                 </div>
               </div>
-              {/* cart 2 start */}
+            
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
                   <div className=" relative overflow-hidden bg-cover">
@@ -92,7 +96,7 @@ function work() {
                   </p>
                 </div>
               </div>
-              {/* cart 3 start */}
+              
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
                   <div className=" relative overflow-hidden bg-cover">
@@ -124,7 +128,7 @@ function work() {
                   </p>
                 </div>
               </div>
-              {/* cart 4 start */}
+            
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
                   <div className=" relative overflow-hidden bg-cover">
@@ -157,9 +161,9 @@ function work() {
                 </div>
               </div>
             </div>
-            {/* grid second section start */}
+         
             <div className="grid gap-8">
-              {/* cart 5 start */}
+             
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
                   <div className=" relative overflow-hidden bg-cover">
@@ -188,7 +192,7 @@ function work() {
                   </p>
                 </div>
               </div>
-              {/* cart 6 start */}
+           
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
                   <div className=" relative overflow-hidden bg-cover">
@@ -217,7 +221,7 @@ function work() {
                   </p>
                 </div>
               </div>
-              {/* cart 7 start */}
+             
               <div className="flex flex-col gap-4">
                 <Link href={"#"} className="dm-case-thumbnail image hover:z-0">
                   <div className=" relative overflow-hidden bg-cover">
@@ -295,7 +299,7 @@ function work() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

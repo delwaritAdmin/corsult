@@ -12,7 +12,7 @@ function AboutUs() {
           {/* <h1 className=" text-white text-7xl md:text-8xl lg:text-9xl text-center font-semibold">
             About <span className=" font-thin text-white">us</span>
           </h1> */}
-          <h1 className=" text-white text-7xl md:text-8xl lg:text-9xl text-center font-semibold">
+          <h1 className=" text-white text-5xl text-center font-semibold">
             Coming Soon!
           </h1>
         </div>

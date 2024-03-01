@@ -20,14 +20,14 @@ function Blog() {
     <section className="">
       <div className="bg-third py-20 lg:py-40 w-full">
         <div className="container mx-auto">
-          <h1 className=" text-white text-7xl md:text-8xl lg:text-9xl text-center font-semibold">
-            Blogs
+          <h1 className=" text-white text-5xl text-center font-semibold">
+            Comming Soon...!
           </h1>
         </div>
       </div>
 
       {/* ====================================== */}
-      <div className="bg-[#15171cfa] py-20 w-full md:pb-40 lg:pb-48">
+      {/* <div className="bg-[#15171cfa] py-20 w-full md:pb-40 lg:pb-48">
         <div className="container mx-auto px-4">
           <div className="py-10 grid grid-cols-1 gap-10 lg:grid-cols-3 ">
             <div className="lg:col-span-2 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-x-10">
@@ -366,7 +366,7 @@ function Blog() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

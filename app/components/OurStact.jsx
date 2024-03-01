@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "@material-tailwind/react";
 import Image from "next/image";
 import figma from "../img/Teach-Stack/figma-tech-icon.svg";
 import html from "../img/Teach-Stack/html-tech-icon.svg";
@@ -11,9 +10,7 @@ import tailwind from "../img/Teach-Stack/tailwind-css-tech-icon.webp";
 import metrialui from "../img/Teach-Stack/material-ui-tech-icon.webp";
 import nextjs from "../img/Teach-Stack/next-js-tech-icon.webp";
 import FrontEnd from "../img/Teach-Stack/front-end-development.svg";
-import mobileApp from "../img/Teach-Stack/mobile-app-development.svg";
 import backend from "../img/Teach-Stack/backend-development.svg";
-
 import javaScript from "../img/Teach-Stack/java-script-tech-icon.webp";
 import nodejs from "../img/Teach-Stack/node-js.png";
 import socket from "../img/Teach-Stack/socket-io-tech-icon.webp";
@@ -34,7 +31,7 @@ export default function OurStact() {
   console.log(menu);
 
   return (
-    <section className="py-20 bg-third">
+    <section className="py-20 bg-[#F0F0F0] w-full">
       <div className="container mx-atuo">
         <div>
           <div className="heading col-span-2 text-center  text-white ">
@@ -43,7 +40,8 @@ export default function OurStact() {
 
           {/* =======Main content===== */}
 
-          <div className="wrapper rounded-sm mt-8 grid  gap-y-6 md:gap-y-0 gap-x-6 grid-cols-1 md:grid-cols-3  bg-[#17191D] p-8 text-white">
+          <div className="wrapper rounded-sm mt-8 grid  gap-y-6 md:gap-y-0 gap-x-6 grid-cols-1 md:grid-cols-3
+            bg-[#17191D] p-8 text-white">
             {/* menu left */}
             <div className="menu  ">
               <ul className=" space-y-6 ">

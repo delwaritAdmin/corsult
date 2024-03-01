@@ -30,7 +30,7 @@ function Footers() {
             </div>
           </div> */}
 
-          <div className="pt-24 grid grid-cols-1  gap-7 md:gap-10 lg:grid-cols-5  lg:gap-16">
+          <div className="pt-24 grid grid-cols-1  gap-7 md:gap-10 lg:grid-cols-3  lg:gap-16">
             <div className="text-white lg:col-span-2">
               <h3 className="text-xl font-bold lg:text-2xl">Services</h3>
               <div className="px-4 lg:px-0 pt-3 lg:pt-7 grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-x-5 lg:grid-cols-2 lg:gap-y-3">
@@ -97,7 +97,7 @@ function Footers() {
               </div>
             </div>
 
-            <div className="text-white lg:col-span-2">
+            {/* <div className="text-white lg:col-span-2">
               <h3 className="text-xl font-bold lg:text-2xl">Solutions</h3>
               <div className="px-4 lg:px-0 pt-3 lg:pt-7 grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-x-5 lg:grid-cols-2 lg:col-span-2">
                 <Link
@@ -137,7 +137,7 @@ function Footers() {
                   Homecare Admission packet
                 </Link>
               </div>
-            </div>
+            </div> */}
 
             <div className="text-white">
               <h2 className=" text-xl font-bold lg:text-2xl">About Us</h2>
@@ -146,31 +146,25 @@ function Footers() {
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  About TekRevol
+                  Terms and Condition
                 </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  Referral Program
+                  Policy
                 </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  Blogs
+                  Copyright
                 </Link>
                 <Link
                   href={"#"}
                   className="text-sm hover:text-[#0180EB] transition-all duration-200"
                 >
-                  Press
-                </Link>
-                <Link
-                  href={"#"}
-                  className="text-sm hover:text-[#0180EB] transition-all duration-200"
-                >
-                  Events
+                  FAQ
                 </Link>
               </div>
             </div>
@@ -269,7 +263,7 @@ function Footers() {
             </div>
           </div>
           <div className=" pb-5 text-white flex flex-col gap-4 lg:flex-row lg:justify-between">
-            <p>© Corsult 2024. All rights reserved</p>
+            <p>© Techdrive 2024. All rights reserved</p>
             <div className="flex gap-1 md:gap-2">
               <Link
                 href={"#"}

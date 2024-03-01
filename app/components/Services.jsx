@@ -111,15 +111,16 @@ function Services() {
                   </div>
                   <div className="space-y-4">
                     <h2 className="text-white font-semibold text-3xl">
-                      UI UX Design
+                      Search Engine Optimization (SEO)
                     </h2>
                     <p className="text-[#918E93]">
-                      In the realm of our agency, we weave dreams into pixels,
-                      infusing every UI/UX design with passion. Embracing the
-                      bittersweet dance of aesthetics and functionality, our
-                      creations transcend screens, evoking emotions that linger.
-                      Elevate your digital narrative with designs that not only
-                      captivate but resonate profoundly
+                      Unlock the full potential of your online presence with our
+                      Search Engine Optimization (SEO) services. We employ
+                      cutting-edge strategies to boost your website&rsquo;s
+                      visibility and drive organic traffic. From keyword
+                      optimization to content enhancement, we tailor solutions
+                      that propel your business to the top of search engine
+                      rankings, maximizing your digital reach.
                     </p>
                   </div>
                 </div>
@@ -133,15 +134,15 @@ function Services() {
                   </div>
                   <div className="space-y-4">
                     <h2 className="text-white font-semibold text-3xl">
-                      Web Design
+                      Email Marketing
                     </h2>
                     <p className="text-[#918E93]">
-                      We&rsquo;re architects of emotion in pixels. With every
-                      web design, we blend passion and functionality, creating
-                      an immersive online symphony. Let your digital presence be
-                      a resonating tale, where aesthetics meet seamless
-                      functionality, weaving a narrative that lingers and
-                      captivates.
+                      Harness the power of Email Marketing with our agency. We
+                      craft compelling campaigns that engage your audience,
+                      drive conversions, and foster brand loyalty. From
+                      captivating subject lines to personalized content, we
+                      optimize every aspect of your email strategy to deliver
+                      measurable results and elevate your digital presence.
                     </p>
                   </div>
                 </div>
@@ -155,14 +156,16 @@ function Services() {
                   </div>
                   <div className="space-y-4">
                     <h2 className="text-white font-semibold text-3xl">
-                      Logo & Brand Design
+                      Social Media Marketing
                     </h2>
                     <p className="text-[#918E93]">
-                      Sculpting logos, shaping brands. Uplift your essence
-                      through our expert logo and brand design services. Convey
-                      your vision, and we&rsquo;ll breathe life into it,
-                      guaranteeing indelible impressions that resonate. Your
-                      identity, meticulously crafted for lasting distinction.
+                      Elevate your brand&rsquo;s online presence with our Social
+                      Media Marketing expertise. We curate engaging content,
+                      strategize impactful campaigns, and foster meaningful
+                      connections with your audience across diverse platforms.
+                      From content creation to analytics, we maximize your reach
+                      and engagement, driving tangible results for your business
+                      in the digital realm.
                     </p>
                   </div>
                 </div>
@@ -176,14 +179,16 @@ function Services() {
                   </div>
                   <div className="space-y-4">
                     <h2 className="text-white font-semibold text-3xl">
-                      UX Audit
+                      Pay Per Click (PPC) Management
                     </h2>
                     <p className="text-[#918E93]">
-                      Enhance performance with profound insights. Heighten user
-                      engagement through our thorough UX Audit services. Unveil
-                      your digital hurdles, and we&rsquo;ll pinpoint
-                      enhancements for a seamless and intuitive journey. Let
-                      data illuminate the path to an elevated user experience.
+                      Our agency excels in Pay Per Click (PPC) Management,
+                      optimizing your digital advertising campaigns for maximum
+                      impact. With meticulous keyword research, compelling ad
+                      copy, and strategic bidding strategies, we drive targeted
+                      traffic to your website while maximizing your ROI. Let us
+                      elevate your online visibility and grow your business
+                      exponentially.
                     </p>
                   </div>
                 </div>
@@ -197,15 +202,16 @@ function Services() {
                   </div>
                   <div className="space-y-4">
                     <h2 className="text-white font-semibold text-3xl">
-                      WordPress
+                      eCommerce Marketing
                     </h2>
                     <p className="text-[#918E93]">
-                      Embark on WordPress wonders. Simplify your digital voyage
-                      with our proficient WordPress services. Convey your
-                      vision, and we&rsquo;ll mold it into a user-friendly,
-                      SEO-optimized masterpiece. Let&rsquo;s collaborate to
-                      craft digital excellence that resonates with your
-                      audience.
+                      At our agency, we excel in eCommerce Marketing, driving
+                      your online store to new heights of success. Through
+                      targeted strategies in SEO, social media, email campaigns,
+                      and conversion optimization, we amplify your brand&rsquo;s
+                      visibility and sales. Let us navigate the digital
+                      landscape and elevate your eCommerce business to
+                      unprecedented levels.
                     </p>
                   </div>
                 </div>
@@ -219,7 +225,7 @@ function Services() {
                   </div>
                   <div className="space-y-4">
                     <h2 className="text-white font-semibold text-3xl">
-                      SaaS Design
+                      Local SEO
                     </h2>
                     <p className="text-[#918E93]">
                       In the realm of SaaS, global UX is paramount for user
@@ -228,6 +234,28 @@ function Services() {
                       design. Trust our dedicated SaaS professionals for a
                       resonant global experience that ensures user engagement
                       and loyalty.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#040408c9] rounded-[45px] p-10 md:p-16 hvr-bounce-to-right overflow-hidden">
+                <div className="flex flex-col md:flex-row justify-center gap-5">
+                  <div className="flex md:block">
+                    <div className="  bg-primary p-4 rounded-full rounded-tr-[10px] rounded-bl-full">
+                      <p className="text-white font-bold text-xl">07</p>
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <h2 className="text-white font-semibold text-3xl">
+                      Web Design and Development
+                    </h2>
+                    <p className="text-[#918E93]">
+                      Our agency specializes in Web Design and Development,
+                      crafting visually stunning and highly functional websites
+                      tailored to your brand&rsquo;s needs. From sleek user
+                      interfaces to robust backend systems, we ensure seamless
+                      user experiences across all devices. Let us transform your
+                      online presence into a captivating digital masterpiece.
                     </p>
                   </div>
                 </div>
