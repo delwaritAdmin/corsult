@@ -13,7 +13,7 @@ import {
 import Image from "next/image";
 import * as Scroll from "react-scroll";
 import Link from "next/link";
-import logo from "../img/Logo_Img.png";
+import logo from "../img/Techdrive_logo.png";
 import { BsTwitter, BsDiscord } from "react-icons/bs";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -123,7 +123,7 @@ export default function Header() {
           <Image
             src={logo}
             height={120}
-            width={175}
+            width={190}
             alt="logo"
             className="w-32 md:w-[80%] lg:w-[70%]"
           />
